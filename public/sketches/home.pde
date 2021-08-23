@@ -2,6 +2,8 @@
 int amount = 3;
 int[][] state = new int[amount][amount];
 
+PImage img1;
+
 void setup(){
   size(900,900);
 
@@ -10,11 +12,16 @@ void setup(){
       state[x][y] = int(random(0,6));
     }
   }
+
+  String url = "1.jpeg";
+  img1 = loadImage(url,"jpeg");
+  img1.resize(width,height);
 }
 
 void draw(){
   background(#f1f1f1);
 
+  image(img1,0,0);
   float tileW = width/amount;
   float tileH = height/amount;
 
