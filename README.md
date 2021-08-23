@@ -2,4 +2,4 @@
 
 https://ovnd-web-hjdyc.ondigitalocean.app/
 
-online portfolio built on react.js containing my creative coding endeavours
+An online archive to house creative coding endeavours

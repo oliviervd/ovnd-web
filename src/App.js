@@ -14,7 +14,7 @@ function App() {
             <p>An online archive to house creative coding endeavours</p>
           </div>
           <div>
-              <canvas id="sketch" data-processing-sources="sketches/sketch.pde"></canvas>
+              <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
           </div>
           </body>
       </div>

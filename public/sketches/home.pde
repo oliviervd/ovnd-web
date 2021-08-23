@@ -26,7 +26,13 @@ void draw(){
     for (int y = 0; y < amount; y++){
       pushMatrix();
       translate(x*tileW, y*tileH);
-      ellipse(0,0,tileW,tileH);
+
+      if (state[x][y] == 0){
+        ellipse(0,0,tileW,tileH);
+      }
+      if (state[x][y] == 1){
+        rect(0,0,tileW,tileH);
+      }
       popMatrix();
     }
   }
