@@ -19,7 +19,7 @@ const MainPage = () => {
             </div>
             <div>
                 <br></br>
-                <Link to="/projects">INDEX</Link>
+                <a className="links" href="/projects">INDEX</a>
             </div>
             </body>
         </div>

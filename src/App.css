@@ -2,3 +2,15 @@
   margin-top: 80px;
   text-align: center;
 }
+
+a:link {
+  color: lightsalmon;
+}
+
+a:hover {
+  color: coral;
+}
+
+a:visited {
+  color: coral;
+}
