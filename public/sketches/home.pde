@@ -13,9 +13,7 @@ void setup(){
     }
   }
 
-  String url = "1.jpeg";
-  img1 = loadImage(url,"jpeg");
-  img1.resize(width,height);
+  img1 = loadImage("1.jpeg");
 }
 
 void draw(){
