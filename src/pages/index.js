@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const MainPage = () => {
     return (
@@ -15,6 +16,10 @@ const MainPage = () => {
             </div>
             <div>
                 <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
+            </div>
+            <div>
+                <br></br>
+                <Link to="/projects">INDEX</Link>
             </div>
             </body>
         </div>
