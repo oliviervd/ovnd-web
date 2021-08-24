@@ -14,3 +14,9 @@ a:hover {
 a:visited {
   color: coral;
 }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
