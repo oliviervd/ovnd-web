@@ -32,7 +32,7 @@ const MainPage = () => {
                             <div class="nav_menu">
                                 <ul>
                                     <li><a className="links" href="/projects" target="_blank">c_coding</a></li>
-                                    {/*<li><a className="links" href="/music" target="_blank">music</a></li>*/}
+                                    <li><a className="links" href="/musicMain" target="_blank">music</a></li>
                                     {/*<li><a className="links" href="/about" target="_blank">about</a></li>*/}
                                     {/*<li><a className="links" href="/contact" target="_blank">contact</a></li>*/}
                                 </ul>
