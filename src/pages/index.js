@@ -31,9 +31,9 @@ const MainPage = () => {
                         <container>
                             <div class="nav_menu">
                                 <ul>
-                                    <li><a className="links" href="/projects" target="_blank">c_coding</a></li>
-                                    <li><a className="links" href="/musicMain" target="_blank">music</a></li>
-                                    {/*<li><a className="links" href="/about" target="_blank">about</a></li>*/}
+                                    <li><a className="links" href="/projects" target="_self">c_coding</a></li>
+                                    <li><a className="links" href="/musicMain" target="_self">music</a></li>
+                                    <li><a className="links" href="/about" target="_self">about</a></li>
                                     {/*<li><a className="links" href="/contact" target="_blank">contact</a></li>*/}
                                 </ul>
                             </div>
