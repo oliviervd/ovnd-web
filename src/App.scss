@@ -1,0 +1,75 @@
+.App {
+  margin-top: 8px;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  padding: 1.5rem;
+}
+
+h1 {
+  color: lightsalmon;
+}
+
+a:link {
+  color: lightsalmon;
+}
+
+a:hover {
+  color: coral;
+}
+
+a:visited {
+  color: coral;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+/* media */
+
+.cinema {
+  background: black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+/* navigation bar */
+
+.wrap {
+  padding: 1.5rem;
+}
+
+nav {
+  padding: 16px 36px;
+  font-family: "roboto", sans-serif;
+  container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    ul, .nav_menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      gap: 46px;
+    }
+    li {
+      a{
+        padding: 8px;
+        letter-spacing: .2rem;
+        font-size: .9rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        transition: color 150ms ease-out;
+        &:hover {
+          color: grey;
+        }
+      }
+    }
+  }
+}
