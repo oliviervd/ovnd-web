@@ -12,9 +12,9 @@ const MusicMain = () => {
                     <container>
                         <div className="nav_menu">
                             <ul>
-                                <li><a className="links" href="/">home</a></li>
-                                <li><a className="links" href="/projects">c_coding</a></li>
-                                <li><a className="links" href="/music">music</a></li>
+                                <li><a href="/">home</a></li>
+                                <li><a href="/projects">c_coding</a></li>
+                                <li><a href="/music">music</a></li>
                             </ul>
                         </div>
                     </container>
