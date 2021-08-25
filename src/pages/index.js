@@ -1,5 +1,22 @@
 import React from "react";
 
+const navLinks = document.querySelectorAll("nav a")
+const navTextCopy = document.getElementById("nav_big_text")
+
+for (let i=0; i<navLinks.length; i++){
+    navLinks[i].addEventListener("mouseover",function(){
+        let navLinkText = this.textContent
+        navTextCopy.textContent = navLinkText
+        navTextCopy.classList.add("big_text_active")
+    })
+
+    navLinks[i].addEventListener("mouseout",function(){
+        let navLinkText = this.textContent
+        navTextCopy.textContent = navLinkText;
+        navTextCopy.classList.remove("big_text_active")
+    })
+}
+
 const MainPage = () => {
     return (
         <html>
@@ -14,10 +31,10 @@ const MainPage = () => {
                         <container>
                             <div class="nav_menu">
                                 <ul>
-                                    <li><a className="links" href="/projects">c_coding</a></li>
-                                    {/*<li><a className="links" href="/music">music</a></li>*/}
-                                    {/*<li><a className="links" href="/about">about</a></li>*/}
-                                    {/*<li><a className="links" href="/contact">contact</a></li>*/}
+                                    <li><a className="links" href="/projects" target="_blank">c_coding</a></li>
+                                    {/*<li><a className="links" href="/music" target="_blank">music</a></li>*/}
+                                    {/*<li><a className="links" href="/about" target="_blank">about</a></li>*/}
+                                    {/*<li><a className="links" href="/contact" target="_blank">contact</a></li>*/}
                                 </ul>
                             </div>
                         </container>
@@ -29,6 +46,9 @@ const MainPage = () => {
                         <br></br>
                         <a href="/">REFRESH ME</a>
                     </div>
+                </div>
+                <div className="hero">
+                    <div id="nav_big_text"></div>
                 </div>
             </body>
         </html>
