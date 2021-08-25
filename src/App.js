@@ -1,6 +1,6 @@
 import './App.scss';
 import { Component } from "react";
-import { BrowserRouter as Router, Route, Switch, Link, Redirect} from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 
 //pages
 import MainPage from "./pages/index";

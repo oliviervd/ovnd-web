@@ -26,8 +26,8 @@ const MainPage = () => {
                 <div className="App">
                     <div>
                         <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
-                        <p>REFRESH ME</p>
-                        <p>An online archive to house creative coding endeavours</p>
+                        <br></br>
+                        <a href="/">REFRESH ME</a>
                     </div>
                 </div>
             </body>

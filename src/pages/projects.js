@@ -13,6 +13,7 @@ const ProjectSum = () => {
                         <container>
                             <div class="nav_menu">
                                 <ul>
+                                    <li><a className="links" href="/">home</a></li>
                                     <li><a className="links" href="/projects">c_coding</a></li>
                                     {/*<li><a className="links" href="/music">music</a></li>*/}
                                     {/*<li><a className="links" href="/about">about</a></li>*/}
