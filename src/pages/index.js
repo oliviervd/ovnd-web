@@ -12,10 +12,10 @@ const MainPage = () => {
                 <script type="text/javascript" src="processing.js"></script>
             </head>
             <body>
-                <div class="wrap">
+                <div className="wrap">
                     <nav>
                         <container>
-                            <div class="nav_menu">
+                            <div className="nav_menu">
                                 <ul>
                                     <li><a href="/projects" target="_self">c_coding</a></li>
                                     <li><a href="/musicMain" target="_self">music</a></li>
