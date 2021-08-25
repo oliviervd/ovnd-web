@@ -20,7 +20,7 @@ const MainPage = () => {
                                     <li><a href="/projects" target="_self">c_coding</a></li>
                                     <li><a href="/musicMain" target="_self">music</a></li>
                                     <li><a href="/about" target="_self">about</a></li>
-                                    <li><a href="/contact" target="_blank">contact</a></li>
+                                    <li><a href="/contact" target="_self">contact</a></li>
                                 </ul>
                             </div>
                         </container>
