@@ -118,7 +118,7 @@ nav {
   transition-property: transform, opacity;
   transition-duration: .25s;
   transition-timing-function: ease-out;
-  z-index: +1;
+  z-index: 0;
 }
 
 #nav_big_text.big_text_active {
