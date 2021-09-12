@@ -23,7 +23,10 @@ const MusicMain = () => {
                 </nav>
             </div>
             <div className="grid">
-                <div className="portfolio_element"></div>
+                <div className="portfolio_element11"></div>
+                <div className="portfolio_element12"></div>
+                <div className="portfolio_element21"></div>
+                <div className="portfolio_element22"></div>
             </div>
         </body>
         </html>

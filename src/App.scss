@@ -137,8 +137,26 @@ nav {
   gap: 10px;
 }
 
-.portfolio_element {
+.portfolio_element11 {
   background-color: aliceblue;
   grid-row: 1/2;
   grid-column: 1/2;
+}
+
+.portfolio_element12 {
+  background-color: aliceblue;
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.portfolio_element21 {
+  background-color: aliceblue;
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.portfolio_element22 {
+  background-color: aliceblue;
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
