@@ -12,13 +12,18 @@ const MusicMain = () => {
                     <container>
                         <div className="nav_menu">
                             <ul>
-                                <li><a className="links" href="/">home</a></li>
-                                <li><a className="links" href="/projects">c_coding</a></li>
-                                <li><a className="links" href="/music">music</a></li>
+                                <li><a href="/" target="_self">home</a></li>
+                                <li><a href="/projects" target="_self">c_coding</a></li>
+                                <li><a href="/musicMain" target="_self">music</a></li>
+                                <li><a href="/about" target="_self">about</a></li>
+                                <li><a href="/contact" target="_self">contact</a></li>
                             </ul>
                         </div>
                     </container>
                 </nav>
+            </div>
+            <div className="grid">
+                <div className="portfolio_element"></div>
             </div>
         </body>
         </html>
