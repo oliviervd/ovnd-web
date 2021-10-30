@@ -20,9 +20,6 @@ const MainPage = () => {
                 <br></br>
             </div>
         </div>
-        <div className="hero">
-            <div id="nav_big_text"></div>
-        </div>
         </body>
         </html>
     );
