@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/navbar/navbar";
 
 const navLinks = document.querySelectorAll("nav a")
 const navTextCopy = document.getElementById("nav_big_text")

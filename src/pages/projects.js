@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPlayer from 'react-player'
-import Navbar from "../components/navbar";
+import Navbar from "../components/navbar/navbar";
 
 const ProjectSum = () => {
     return (

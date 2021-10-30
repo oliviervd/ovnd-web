@@ -9,6 +9,16 @@ h1 {
   color: lightsalmon;
 }
 
+a {
+  color: lightsalmon;
+  text-decoration: none;
+  &:hover {
+    color: lightblue;
+    text-decoration: none;
+  }
+
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -22,6 +32,15 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   display: block
+}
+
+.vimeoBox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: flex-start;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 /* navigation bar */
