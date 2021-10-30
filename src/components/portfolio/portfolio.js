@@ -21,7 +21,7 @@ const Portfolio = () => {
                             </Box>
                             <Box flex={2}>
                                 <h3>{postDetail.title}</h3>
-                                <h5>{postDetail.year}</h5>
+                                <h5>{postDetail.year} - {postDetail.type}</h5>
                                 <p>
                                     {postDetail.description}
                                 </p>

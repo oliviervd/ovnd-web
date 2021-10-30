@@ -1,4 +1,24 @@
-[
+[{
+  "title": "Hélène",
+  "year": "2021",
+  "type": "solo",
+  "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/",
+  "description": "soft memories."
+},
+  {
+  "title": "A Dark Horizon of Thought",
+  "year": "2021",
+  "type": "narrative content",
+  "source": "https://bandcamp.com/EmbeddedPlayer/album=4024944266/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/",
+  "description": "Forest becomes object. Object gains agency and maintains a murky relationship with the human species. Written and directed by Jannes Callens, Cinematography: Sven Aerts, Sound: Nicolas Van Ruysevelt, Montage: Arnaud Batog"
+},
+  {
+    "title": "DOUBLE (un)BOUND",
+    "year": "2021",
+    "type": "solo",
+    "source": "https://bandcamp.com/EmbeddedPlayer/album=1684761460/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/",
+    "description": "DOUBLE (UN)BOUND explores the notion of repetition through the process of composition. Restricted to one instrument, one track, and one take. Each day one track will be recorded and published. The patch made on the modular synthesizer will be untied by unplugging the patch cables, at which point it can never be fully recreated agai\nIn doing so, I want to evoke the sentiment of repetition that has become an acquaintanceship ever since the lockdown began. These studies will reflect upon the temporality of music as a composition of time or the absence thereof and the compromise to sociability. And although their fleeting nature, we will all be listening to them in the same way. In time, the intentions of this project will alter. It will grow and adapt itself to a particular motion in time. Until – finally – it will cease to exist. At which point in time silence truly does become empty.\n"
+  },
   {
     "title": "un, deux, trois, soleil",
     "year": "2020",
