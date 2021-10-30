@@ -8,9 +8,7 @@ const about = () => {
             about
         </head>
         <body>
-        <div className="wrap">
-            <Navbar/>
-        </div>
+        <Navbar/>
         </body>
         </html>
     )

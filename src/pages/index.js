@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/navbar";
 
 const navLinks = document.querySelectorAll("nav a")
 const navTextCopy = document.getElementById("nav_big_text")
@@ -6,36 +7,23 @@ const navTextCopy = document.getElementById("nav_big_text")
 const MainPage = () => {
     return (
         <html>
-            <head>
-                <meta httpEquiv="Content-Type" content="text/html" charset="utf-8" />
-                <title>home</title>
-                <script type="text/javascript" src="processing.js"></script>
-            </head>
-            <body>
-                <div className="wrap">
-                    <nav>
-                        <container>
-                            <div className="nav_menu">
-                                <ul>
-                                    <li><a href="/projects" target="_self">c_coding</a></li>
-                                    <li><a href="/music" target="_self">music</a></li>
-                                    <li><a href="/about" target="_self">about</a></li>
-                                    <li><a href="/contact" target="_self">contact</a></li>
-                                </ul>
-                            </div>
-                        </container>
-                    </nav>
-                </div>
-                <div className="App">
-                    <div>
-                        <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
-                        <br></br>
-                    </div>
-                </div>
-                <div className="hero">
-                    <div id="nav_big_text"></div>
-                </div>
-            </body>
+        <head>
+            <meta httpEquiv="Content-Type" content="text/html" charset="utf-8" />
+            <title>home</title>
+            <script type="text/javascript" src="processing.js"></script>
+        </head>
+        <body>
+        <Navbar/>
+        <div className="App">
+            <div>
+                <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
+                <br></br>
+            </div>
+        </div>
+        <div className="hero">
+            <div id="nav_big_text"></div>
+        </div>
+        </body>
         </html>
     );
 }
