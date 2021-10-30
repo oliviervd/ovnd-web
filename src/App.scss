@@ -5,35 +5,6 @@
   padding: 1.5rem;
 }
 
-.gridMain {
-  background-color: aquamarine;
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template: 1fr 5fr 5fr 1fr / 3fr 3fr 3fr;
-  grid-template-areas:
-  "wrap wrap wrap"
-  "x x x"
-  "x x x"
-  "footer footer footer";
-  gap: 10px;
-}
-
-.img {
-  background: blueviolet;
-  grid-area: image;
-}
-
-.footer {
-  background-color: bisque;
-  grid-area: footer;
-}
-
-.portfolioItem {
-  background-color: yellow;
-  grid-area: x;
-}
-
 h1 {
   color: lightsalmon;
 }
@@ -57,12 +28,10 @@ h1 {
 
 .wrap {
   padding: 1.5rem;
-  background-color: white;
-  grid-area: wrap
 }
 
 nav {
-  padding: 16px 36px;
+  padding: 0.5rem (calc(100vw - 1000px)/2);
   font-family: "roboto", sans-serif;
 
   container {
@@ -77,6 +46,9 @@ nav {
       align-items: center;
       list-style: none;
       gap: 46px;
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
     }
 
     li {
@@ -97,48 +69,3 @@ nav {
   }
 }
 
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 48px;
-  border-radius: 5px;
-  min-height: 50vh;
-  position: relative;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    padding-top: 24px;
-    color: white;
-    height: 100%;
-    width: 5%;
-  }
-}
-
-#nav_big_text {
-  position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  color: black;
-  opacity: 0;
-  font-size: 16rem;
-  font-weight: 700;
-  line-height: .8;
-  text-transform: uppercase;
-  transform: translateX(10%);
-  transition-property: transform, opacity;
-  transition-duration: .25s;
-  transition-timing-function: ease-out;
-  z-index: 0;
-}
-
-#nav_big_text.big_text_active {
-  transform: translateX(0%);
-  opacity: 1;
-}
