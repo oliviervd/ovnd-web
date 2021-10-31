@@ -1,17 +1,21 @@
-[{
-  "title": "Hélène",
-  "year": "2021",
-  "type": "solo",
-  "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/",
-  "description": "soft memories."
-},
+[
   {
-  "title": "A Dark Horizon of Thought",
-  "year": "2021",
-  "type": "narrative content",
-  "source": "https://bandcamp.com/EmbeddedPlayer/album=4024944266/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/",
-  "description": "Forest becomes object. Object gains agency and maintains a murky relationship with the human species. Written and directed by Jannes Callens, Cinematography: Sven Aerts, Sound: Nicolas Van Ruysevelt, Montage: Arnaud Batog"
-},
+    "title": "Hélène",
+    "year": "2021",
+    "type": "solo",
+    "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/",
+    "description": "soft memories."
+  },
+  {
+    "title": "A Dark Horizon of Thought",
+    "year": "2021",
+    "type": "narrative content",
+    "source": "https://bandcamp.com/EmbeddedPlayer/album=4024944266/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/",
+    "description": "Forest becomes object. Object gains agency and maintains a murky relationship with the human species. Written and directed by Jannes Callens, Cinematography: Sven Aerts, Sound: Nicolas Van Ruysevelt, Montage: Arnaud Batog",
+    "director": "Jannes Callens",
+    "writer": "Jannes Callens",
+    "cinematography": "Sven Aerts"
+  },
   {
     "title": "DOUBLE (un)BOUND",
     "year": "2021",
@@ -20,23 +24,46 @@
     "description": "DOUBLE (UN)BOUND explores the notion of repetition through the process of composition. Restricted to one instrument, one track, and one take. Each day one track will be recorded and published. The patch made on the modular synthesizer will be untied by unplugging the patch cables, at which point it can never be fully recreated agai\nIn doing so, I want to evoke the sentiment of repetition that has become an acquaintanceship ever since the lockdown began. These studies will reflect upon the temporality of music as a composition of time or the absence thereof and the compromise to sociability. And although their fleeting nature, we will all be listening to them in the same way. In time, the intentions of this project will alter. It will grow and adapt itself to a particular motion in time. Until – finally – it will cease to exist. At which point in time silence truly does become empty.\n"
   },
   {
+    "title": "Au Revoir Au Printemps",
+    "year": "2021",
+    "type": "narrative",
+    "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/",
+    "description": "Au Revoir Au Printemps is a short film that follows young Issam on his way with his father, Cherif, and Ilies, his older brother. A phone call will lead them to a hardware store, where a family argument will push them to find an answer to the question, 'what is it to be a man?'"
+  },
+  {
+    "title": "P&V",
+    "year": "2021",
+    "type": "advertisment",
+    "source": "https://www.youtube.com/embed/HRjnmzi4UPU",
+    "description": "Advertisment for P&V Group (assurances). Campaign during covid-pandemic. Written and directed by Khaël Touag, produced by Landvogel.",
+    "director": "Khaël Touag",
+    "producer": "Landvogel"
+  },
+  {
     "title": "un, deux, trois, soleil",
     "year": "2020",
     "type": "advertisement",
     "source": "https://player.vimeo.com/video/393541385?h=c28bfde478",
-    "description": "Campaign for Youth at Social Risk written and directed by Khaël Touag. Shot by Virgil Leclercq, produced by Les Mecs."
+    "description": "Campaign for Youth at Social Risk written and directed by Khaël Touag. Shot by Virgil Leclercq, produced by Les Mecs.",
+    "director": "Khaël Touag",
+    "writer": "Khaël Touag",
+    "cinematography": "Virgil Leclercq",
+    "producer": "LES MECS"
   },
   {
     "title": "NEST",
     "year": "2020",
     "type": "narrative content",
     "source": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1174186456&color=%23a2a8a8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-    "description": "Short movie written and directed by Matthee van Holderbeke"
-  }, {
-  "title": "Frøwst",
-  "year": "2017-2019",
-  "type": "band",
-  "description": "Indie / Post / Ambient / Pop"
-}
+    "description": "Short movie written and directed by Matthee van Holderbeke",
+    "director": "Matthee van Holderbeke",
+    "writer": "Matthee van Holderbeke"
+  },
+  {
+    "title": "Frøwst",
+    "year": "2017-2019",
+    "type": "band",
+    "description": "Indie / Post / Ambient / Pop"
+  }
 ]
 

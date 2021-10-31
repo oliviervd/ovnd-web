@@ -10,14 +10,14 @@ const Portfolio = () => {
                     <div className="wrap">
                         <Box className="vimeoBox">
                             <Box flex={2}>
-                                <iframe
+                                {/*<iframe
                                     width='640px'
                                     height='200px'
                                     src={postDetail.source}
                                     frameBorder='0'
                                     allow = "autoplay; fullscreen; picture-in-picture"
                                     allowFullScreen>
-                                </iframe>
+                                </iframe>*/}
                             </Box>
                             <Box flex={2}>
                                 <h3>{postDetail.title}</h3>
