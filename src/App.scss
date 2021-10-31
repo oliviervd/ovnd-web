@@ -19,6 +19,10 @@ a {
 
 }
 
+.italic {
+  font-style: italic;
+}
+
 .Bio {
   display: flex;
   margin-left: 200px;
@@ -54,6 +58,10 @@ a {
   align-items: flex-start;
   padding-left: 200px;
   padding-right: 200px;
+}
+
+.cover {
+  object-fit: cover;
 }
 
 /* navigation bar */

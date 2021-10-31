@@ -3,13 +3,26 @@ import projectData from "../data/projects.json";
 import { Box } from "rebass"
 
 const Portfolio = () => {
+
+
     return (
         <div>
             {projectData.map((postDetail, index)=>{
+
+                //fetch img from db and construct path.
+                const imgSrc = "/media/img/" + postDetail.img;
                 return (
                     <div className="wrap">
                         <Box className="vimeoBox">
-                            <Box flex={2}>
+                            <Box flex={1}>
+
+                            </Box>
+                            <Box flex={1}>
+                                <img className="cover"
+                                    src={imgSrc}
+                                    width='320px'
+                                    height='180px'>
+                                </img>
                                 {/*<iframe
                                     width='640px'
                                     height='200px'
