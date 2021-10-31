@@ -73,6 +73,13 @@
     "type": "band",
     "img": "frowst.jpg",
     "description": "Indie / Post / Ambient / Pop"
-  }
+  },
+  {"title": "Julian",
+  "year": "2018",
+  "type": "narrative",
+  "img": "2018_Julian.png",
+    "source": "https://player.vimeo.com/video/211292107?h=d342e3ef96",
+  "description": "Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life.",
+  "director": "Maxime Fauconnier",
+  "writer": "Maxime Fauconnier"}
 ]
-
