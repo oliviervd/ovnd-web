@@ -12,7 +12,7 @@ const Portfolio = () => {
                             <Box flex={2}>
                                 <iframe
                                     width='640px'
-                                    height='480px'
+                                    height='200px'
                                     src={postDetail.source}
                                     frameBorder='0'
                                     allow = "autoplay; fullscreen; picture-in-picture"

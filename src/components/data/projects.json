@@ -2,7 +2,7 @@
   "title": "Hélène",
   "year": "2021",
   "type": "solo",
-  "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/",
+  "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/",
   "description": "soft memories."
 },
   {
@@ -30,7 +30,13 @@
     "title": "NEST",
     "year": "2020",
     "type": "narrative content",
-    "source": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1174186456&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true}",
+    "source": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1174186456&color=%23a2a8a8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
     "description": "Short movie written and directed by Matthee van Holderbeke"
-  }
+  }, {
+  "title": "Frøwst",
+  "year": "2017-2019",
+  "type": "band",
+  "description": "Indie / Post / Ambient / Pop"
+}
 ]
+
