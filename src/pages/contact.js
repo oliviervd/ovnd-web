@@ -10,6 +10,7 @@ const contact = () => {
         </head>
         <body>
         <Navbar/>
+        <h1> UNDER CONSTRUCTION </h1>
         </body>
         </html>
     )
