@@ -6,7 +6,8 @@ const MusicMain = () => {
     return (
         <html>
         <head>
-            <title>music main</title>
+            <meta charSet="utf-8"/>
+            <title>main portfolio page (overview)</title>
         </head>
         <body>
         <Navbar/>

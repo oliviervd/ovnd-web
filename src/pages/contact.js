@@ -5,13 +5,13 @@ const contact = () => {
     return (
         <html>
         <head>
-            about
+            <meta charset="utf-8"/>
+            <title>contact page</title>
         </head>
         <body>
         <Navbar/>
         </body>
         </html>
-
     )
 }
 

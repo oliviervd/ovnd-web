@@ -8,6 +8,7 @@ import ProjectSum from "./pages/projects";
 import MusicMain from "./pages/musicMain";
 import about from "./pages/about";
 import contact from "./pages/contact";
+import project from "./pages/project";
 
 class App extends Component {
     render() {
@@ -18,6 +19,7 @@ class App extends Component {
                 <Route exact path="/music" component={MusicMain} self={true}/>
                 <Route exact path="/about" component={about} self={true}/>
                 <Route exact path="/contact" component={contact} self={true}/>
+                <Route exact path="/music/project" component={project} self={true}/>
             </Router>
         );
     }

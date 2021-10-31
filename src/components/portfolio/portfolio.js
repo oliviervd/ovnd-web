@@ -11,6 +11,7 @@ const Portfolio = () => {
 
                 //fetch img from db and construct path.
                 const imgSrc = "/media/img/" + postDetail.img;
+                const _href = "/music/"+ postDetail.title;
                 return (
                     <div className="wrap">
                         <Box className="vimeoBox">
@@ -23,17 +24,9 @@ const Portfolio = () => {
                                     width='320px'
                                     height='180px'>
                                 </img>
-                                {/*<iframe
-                                    width='640px'
-                                    height='200px'
-                                    src={postDetail.source}
-                                    frameBorder='0'
-                                    allow = "autoplay; fullscreen; picture-in-picture"
-                                    allowFullScreen>
-                                </iframe>*/}
                             </Box>
                             <Box flex={2}>
-                                <h3>{postDetail.title}</h3>
+                                <h3><a href={_href} target="_self">{postDetail.title}</a></h3>
                                 <h5>{postDetail.year} - {postDetail.type}</h5>
                                 <p>
                                     {postDetail.description}

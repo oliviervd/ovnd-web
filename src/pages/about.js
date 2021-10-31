@@ -6,7 +6,8 @@ const about = () => {
     return (
         <html>
         <head>
-            about
+            <meta charSet="utf-8"/>
+            <title>about me</title>
         </head>
         <body>
         <Navbar/>

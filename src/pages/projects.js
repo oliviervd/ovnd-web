@@ -6,7 +6,8 @@ const ProjectSum = () => {
     return (
         <html>
         <head>
-            <title>creative coding repo</title>
+            <meta charset="utf-8"/>
+            <title>creative coding projects</title>
         </head>
         <body>
         <Navbar/>
