@@ -13,7 +13,6 @@ const project = () => {
         </head>
         <body>
         <Navbar/>
-        <h1> UNDER CONSTRUCTION </h1>
         <PortfolioItem/>
         </body>
         </html>
