@@ -24,13 +24,7 @@ class App extends Component {
                     <Route exact path="/music" component={MusicMain} self={true}/>
                     <Route exact path="/about" component={about} self={true}/>
                     <Route exact path="/contact" component={contact} self={true}/>
-
-                    {projectData.map((postDetail, index) => {
-                        const _href = "/music/"+ postDetail.id;
-                        return(
-                            <Route exact path={_href} component={project} self={true}/>
-                        )
-                    })}
+                    <Route exact path="/music/:id" component={project} self={true}/>
                 </Router>
             </div>
         )

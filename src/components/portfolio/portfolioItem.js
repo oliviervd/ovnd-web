@@ -1,9 +1,12 @@
 import React from "react";
 import { Box } from "rebass"
+import {useParams} from "react-router-dom";
 import projectData from "../data/projects.json";
 
 
-const portfolioItem = () => {
+const PortfolioItem = () => {
+    const { id } = useParams();
+
     return(
         <div className="wrap">
             <Box>
@@ -13,4 +16,4 @@ const portfolioItem = () => {
     )
 }
 
-export default portfolioItem;
+export default PortfolioItem;

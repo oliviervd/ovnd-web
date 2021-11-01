@@ -1,5 +1,5 @@
 import React from "react";
-import portfolioItem from "../components/portfolio/portfolioItem";
+import PortfolioItem from "../components/portfolio/portfolioItem";
 import Navbar from "../components/navbar/navbar";
 import {useParams} from "react-router-dom";
 
@@ -14,7 +14,7 @@ const project = () => {
         <body>
         <Navbar/>
         <h1> UNDER CONSTRUCTION </h1>
-        <portfolioItem/>
+        <PortfolioItem/>
         </body>
         </html>
     )
