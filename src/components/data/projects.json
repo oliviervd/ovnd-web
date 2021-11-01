@@ -1,5 +1,6 @@
 [
   {
+    "id": "2021-wacht",
     "title": "Wacht [in post-production]",
     "year": "2021",
     "type": "narrative content",
@@ -11,6 +12,7 @@
     "producer": "Sarah Marks"
   },
   {
+    "id": "2021-helene",
     "title": "Hélène",
     "year": "2021",
     "type": "solo",
@@ -19,6 +21,7 @@
     "description": "soft memories."
   },
   {
+    "id": "2021-adarkhorizonofthought",
     "title": "A Dark Horizon of Thought",
     "year": "2021",
     "type": "narrative content",
@@ -30,6 +33,7 @@
     "cinematography": "Sven Aerts"
   },
   {
+    "id": "2021-doubleunbound",
     "title": "DOUBLE (un)BOUND",
     "year": "2021",
     "type": "solo",
@@ -38,6 +42,7 @@
     "description": "DOUBLE (UN)BOUND explores the notion of repetition through the process of composition. Restricted to one instrument, one track, and one take. Each day one track will be recorded and published. The patch made on the modular synthesizer will be untied by unplugging the patch cables, at which point it can never be fully recreated agai\nIn doing so, I want to evoke the sentiment of repetition that has become an acquaintanceship ever since the lockdown began. These studies will reflect upon the temporality of music as a composition of time or the absence thereof and the compromise to sociability. And although their fleeting nature, we will all be listening to them in the same way. In time, the intentions of this project will alter. It will grow and adapt itself to a particular motion in time. Until – finally – it will cease to exist. At which point in time silence truly does become empty.\n"
   },
   {
+    "id": "2021-aurevoirauprintemps",
     "title": "Au Revoir Au Printemps",
     "year": "2021",
     "type": "narrative",
@@ -46,6 +51,7 @@
     "description": "Au Revoir Au Printemps is a short film that follows young Issam on his way with his father, Cherif, and Ilies, his older brother. A phone call will lead them to a hardware store, where a family argument will push them to find an answer to the question, 'what is it to be a man?'"
   },
   {
+    "id": "2021-pv",
     "title": "P&V",
     "year": "2021",
     "type": "advertisment",
@@ -57,6 +63,7 @@
     "cinematography": "Xavier Van D'huynslager"
   },
   {
+    "id": "2020-undeuxtroissoleil",
     "title": "un, deux, trois, soleil",
     "year": "2020",
     "type": "advertisement",
@@ -69,6 +76,7 @@
     "producer": "LES MECS"
   },
   {
+    "id": "2020-nest",
     "title": "NEST",
     "year": "2020",
     "type": "narrative content",
@@ -80,18 +88,22 @@
     "cinematography": "Angela Otten"
   },
   {
+    "id": "frowst",
     "title": "Frøwst",
     "year": "2017-2019",
     "type": "band",
     "img": "frowst.jpg",
     "description": "Indie / Post / Ambient / Pop"
   },
-  {"title": "Julian",
-  "year": "2018",
-  "type": "narrative",
-  "img": "2018_Julian.png",
+  {
+    "id": "2018-julian",
+    "title": "Julian",
+    "year": "2018",
+    "type": "narrative",
+    "img": "2018_Julian.png",
     "source": "https://player.vimeo.com/video/211292107?h=d342e3ef96",
-  "description": "Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life.",
-  "director": "Maxime Fauconnier",
-  "writer": "Maxime Fauconnier"}
+    "description": "Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life.",
+    "director": "Maxime Fauconnier",
+    "writer": "Maxime Fauconnier"
+  }
 ]
