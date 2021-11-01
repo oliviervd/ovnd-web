@@ -11,7 +11,7 @@ const Portfolio = () => {
 
                 //fetch img from db and construct path.
                 const imgSrc = "/media/img/" + postDetail.img;
-                const _href = "/music/"+ postDetail.title;
+                const _href = "/music/"+ postDetail.id;
                 return (
                     <div className="wrap">
                         <Box className="vimeoBox">

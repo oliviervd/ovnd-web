@@ -26,7 +26,7 @@ class App extends Component {
                     <Route exact path="/contact" component={contact} self={true}/>
 
                     {projectData.map((postDetail, index) => {
-                        const _href = "/music/"+ postDetail.title;
+                        const _href = "/music/"+ postDetail.id;
                         return(
                             <Route exact path={_href} component={project} self={true}/>
                         )
