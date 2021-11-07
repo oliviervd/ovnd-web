@@ -13,11 +13,13 @@ const MainPage = () => {
             <script type="text/javascript" src="processing.js"></script>
         </head>
         <body>
-        <Navbar/>
-        <div className="App">
-            <div>
-                <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
-                <br></br>
+        <div className={"ScContainer"}>
+            <Navbar/>
+            <div className="App">
+                <div>
+                    <canvas className= {"processingSketch"} id="sketch" data-processing-sources="sketches/home.pde"></canvas>
+                    <br></br>
+                </div>
             </div>
         </div>
         </body>
