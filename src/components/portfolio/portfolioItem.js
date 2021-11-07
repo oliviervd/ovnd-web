@@ -19,7 +19,9 @@ const PortfolioItem = () => {
 
         <div className="wrap">
             <Box className="projectPage">
+
                 <Box flex={2} className="infoBox">
+
                     <Box flex={3} className={"portfolioLine"}>
                         <h1 class="uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
                     </Box>
@@ -31,8 +33,8 @@ const PortfolioItem = () => {
                     {/* director */}
                     {x.map((o) => {
                         if (typeof o.production != 'undefined') {
-                        return <p><strong>director: </strong>{x.map(x => <div>{o.production.director}</div>)}</p>
-                    }})}
+                            return <p><strong>director: </strong>{x.map(x => <div>{o.production.director}</div>)}</p>
+                        }})}
 
                     {/* writer */}
                     {x.map((o) => {
@@ -44,6 +46,20 @@ const PortfolioItem = () => {
                     {x.map((o) => {
                         if (typeof o.production != 'undefined') {
                             return <p><strong>cinematography: </strong>{x.map(x => <div>{o.production.cinematography}</div>)}</p>
+                        }})}
+
+                    {/* media source  */}
+                    {x.map((o) => {
+                        if (typeof o.source != 'undefined') {
+                            if (typeof o.source.bandcamp != 'undefined') {
+                                return <iframe className={"media_bandcamp"} src={o.source.bandcamp} seamless/>
+                            } else {
+                                if (typeof o.source.soundcloud != 'undefined') {
+                                    return <iframe width="100%" height="450" scrolling="no" frameBorder="no"
+                                                   allow="autoplay"
+                                                   src={o.source.soundcloud}/>
+                                }
+                            }
                         }})}
 
                 </Box>
