@@ -7,11 +7,13 @@ const MusicMain = () => {
         <html>
         <head>
             <meta charSet="utf-8"/>
-            <title>main portfolio page (overview)</title>
+            <title>OVND - music portfolio</title>
         </head>
         <body>
-        <Navbar/>
-        <Portfolio/>
+        <div className={"ScContainer"}>
+            <Navbar/>
+            <Portfolio/>
+        </div>
         </body>
         </html>
     )

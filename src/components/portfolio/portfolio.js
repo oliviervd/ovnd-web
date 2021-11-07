@@ -13,26 +13,18 @@ const Portfolio = () => {
                 const imgSrc = "/media/img/" + postDetail.img;
                 const _href = "/music/"+ postDetail.id;
                 return (
-                    <div className="wrap">
-                        <Box className="vimeoBox">
-                            <Box flex={1}>
-
+                    <div className={"wrap"}>
+                        <div className="portfolioLine">
+                            <Box flex={0.5}>
+                                <h5 className="subText">{postDetail.year}</h5>
                             </Box>
                             <Box flex={1}>
-                                <img className="cover"
-                                    src={imgSrc}
-                                    width='320px'
-                                    height='180px'>
-                                </img>
-                            </Box>
-                            <Box flex={2}>
                                 <h3><a href={_href} target="_self">{postDetail.title}</a></h3>
-                                <h5>{postDetail.year} - {postDetail.type}</h5>
-                                <p>
-                                    {postDetail.description}
-                                </p>
                             </Box>
-                        </Box>
+                            <Box flex={2} className="gridInfo">
+                                <h5 className="subText">{postDetail.type}</h5>
+                            </Box>
+                        </div>
                     </div>
                 )
             })}
