@@ -20,8 +20,12 @@ const PortfolioItem = () => {
         <div className="wrap">
             <Box className="projectPage">
                 <Box flex={2} className="infoBox">
-                    <h1>{x.map(x => <div>{x.title}</div>)}</h1>
-                    <p>{x.map(x => <div>{x.year}</div>)}</p>
+                    <Box flex={3} className={"portfolioLine"}>
+                        <h1 class="uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
+                    </Box>
+                    <Box flex={1} className={"portfolioLine"}>
+                        <p>{x.map(x => <div>{x.year}</div>)}</p>
+                    </Box>
                     <p>{x.map(x => <div>{x.description}</div>)}</p>
 
                     {/* director */}
