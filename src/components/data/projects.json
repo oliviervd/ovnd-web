@@ -4,7 +4,10 @@
     "title": "Wacht",
     "year": "2021",
     "type": "narrative content",
-    "img": "2021_wacht.jpg",
+    "img": {
+      "src": "2021_wacht.jpg",
+      "alt": "film still showing mathilde lying in the grass with a pink shirt."
+    },
     "description": "Mathilde is 10 years old. She is a young rough, a drifter and a connoisseur of 90s pop ballads. She walks along a deserted road with no beginning or end. She is accompanied by Danielle, who is her spitting image. Both are waiting for tomorrow, a day their dreams might come true.",
     "director": "Sophie Kurpershoek",
     "writer": "Sophie Kurpershoek",
@@ -17,7 +20,10 @@
     "year": "2021",
     "type": "solo",
     "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/",
-    "img": "2021_Helene.png",
+    "img": {
+      "src": "2021_Helene.png",
+      "alt": "Marie-Hélène lying on a bed drinking water"
+    },
     "description": "soft memories."
   },
   {
@@ -26,7 +32,10 @@
     "year": "2021",
     "type": "narrative content",
     "source": "https://bandcamp.com/EmbeddedPlayer/album=4024944266/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/",
-    "img": "2021_ADOTH.jpeg",
+    "img": {
+      "src": "2021_ADOTH.jpeg",
+      "alt": "film still showing a piece of charcoal on a white background"
+    },
     "description": "Forest becomes object. Object gains agency and maintains a murky relationship with the human species. Written and directed by Jannes Callens, Cinematography: Sven Aerts, Sound: Nicolas Van Ruysevelt, Montage: Arnaud Batog",
     "director": "Jannes Callens",
     "writer": "Jannes Callens",
@@ -38,7 +47,10 @@
     "year": "2021",
     "type": "solo",
     "source": "https://bandcamp.com/EmbeddedPlayer/album=1684761460/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/",
-    "img": "2021_DU.jpeg",
+    "img": {
+      "src": "2021_DU.jpeg",
+      "alt": "picture showing a statue in Bruges"
+    },
     "description": "DOUBLE (UN)BOUND explores the notion of repetition through the process of composition. Restricted to one instrument, one track, and one take. Each day one track will be recorded and published. The patch made on the modular synthesizer will be untied by unplugging the patch cables, at which point it can never be fully recreated agai\nIn doing so, I want to evoke the sentiment of repetition that has become an acquaintanceship ever since the lockdown began. These studies will reflect upon the temporality of music as a composition of time or the absence thereof and the compromise to sociability. And although their fleeting nature, we will all be listening to them in the same way. In time, the intentions of this project will alter. It will grow and adapt itself to a particular motion in time. Until – finally – it will cease to exist. At which point in time silence truly does become empty.\n"
   },
   {
@@ -47,7 +59,10 @@
     "year": "2021",
     "type": "narrative",
     "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/",
-    "img": "2021_ARAP.png",
+    "img": {
+      "src": "2021_ARAP.png",
+      "alt": "film still of Au Revoir Au Printemps"
+    },
     "description": "Au Revoir Au Printemps is a short film that follows young Issam on his way with his father, Cherif, and Ilies, his older brother. A phone call will lead them to a hardware store, where a family argument will push them to find an answer to the question, 'what is it to be a man?'"
   },
   {
@@ -56,7 +71,10 @@
     "year": "2021",
     "type": "advertisment",
     "source": "https://www.youtube.com/embed/HRjnmzi4UPU",
-    "img": "2021_P&V.png",
+    "img": {
+      "img": "2021_P&V.png",
+      "alt": "still from the commercial showing an empty crib in a child's room."
+    },
     "description": "Advertisment for P&V Group (assurances). Campaign during covid-pandemic. Written and directed by Khaël Touag, produced by Landvogel.",
     "director": "Khaël Touag",
     "producer": "Landvogel",
@@ -68,7 +86,10 @@
     "year": "2020",
     "type": "advertisement",
     "source": "https://player.vimeo.com/video/393541385?h=c28bfde478",
-    "img": "2020_UDTS.png",
+    "img": {
+      "src": "2020_UDTS.png",
+      "alt": "still from the commercial showing a youth worker in a basketball court"
+    },
     "description": "Campaign for Youth at Social Risk written and directed by Khaël Touag. Shot by Virgil Leclercq, produced by Les Mecs.",
     "director": "Khaël Touag",
     "writer": "Khaël Touag",
@@ -81,7 +102,10 @@
     "year": "2020",
     "type": "narrative content",
     "source": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1174186456&color=%23a2a8a8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-    "img": "2020_nest.jpg",
+    "img": {
+      "img": "2020_nest.jpg",
+      "alt": "filmstill from NEST showing Boris"
+    },
     "description": "After a night out Boris, a young man in his twenties, finds his mother awake and waiting at home. While dreaming of independence, he struggles with feelings of loyalty towards his recently divorced parents. Meanwhile, he shuttles between the nightclub, the darkroom at home and his job as photographer, looking for a step forward.",
     "director": "Matthee van Holderbeke",
     "writer": "Matthee van Holderbeke",
@@ -92,7 +116,10 @@
     "title": "Frøwst",
     "year": "2017-2019",
     "type": "band",
-    "img": "frowst.jpg",
+    "img": {
+      "src": "frowst.jpg",
+      "alt": "Frowst on stage at the Vooruit in Ghent (Belgium)"
+    },
     "description": "Indie / Post / Ambient / Pop"
   },
   {
@@ -100,7 +127,10 @@
     "title": "Julian",
     "year": "2018",
     "type": "narrative",
-    "img": "2018_Julian.png",
+    "img": {
+      "src": "2018_Julian.png",
+      "alt": "filmstill showing Julian sitting on a ledge, drawing."
+    },
     "source": "https://player.vimeo.com/video/211292107?h=d342e3ef96",
     "description": "Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life.",
     "director": "Maxime Fauconnier",
