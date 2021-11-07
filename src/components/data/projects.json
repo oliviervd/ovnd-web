@@ -9,10 +9,12 @@
       "alt": "film still showing mathilde lying in the grass with a pink shirt."
     },
     "description": "Mathilde is 10 years old. She is a young rough, a drifter and a connoisseur of 90s pop ballads. She walks along a deserted road with no beginning or end. She is accompanied by Danielle, who is her spitting image. Both are waiting for tomorrow, a day their dreams might come true.",
-    "director": "Sophie Kurpershoek",
-    "writer": "Sophie Kurpershoek",
-    "cinematography": "Xavier Van D'huynslager",
-    "producer": "Sarah Marks"
+    "production":{
+      "director": "Sophie Kurpershoek",
+      "writer": "Sophie Kurpershoek",
+      "cinematography": "Xavier Van D'huynslager",
+      "producer": "Sarah Marks"
+    }
   },
   {
     "id": "2021-helene",
@@ -37,9 +39,11 @@
       "alt": "film still showing a piece of charcoal on a white background"
     },
     "description": "Forest becomes object. Object gains agency and maintains a murky relationship with the human species. Written and directed by Jannes Callens, Cinematography: Sven Aerts, Sound: Nicolas Van Ruysevelt, Montage: Arnaud Batog",
-    "director": "Jannes Callens",
-    "writer": "Jannes Callens",
-    "cinematography": "Sven Aerts"
+    "production":{
+      "director": "Jannes Callens",
+      "writer": "Jannes Callens",
+      "cinematography": "Sven Aerts"
+    }
   },
   {
     "id": "2021-doubleunbound",
@@ -72,13 +76,15 @@
     "type": "advertisment",
     "source": "https://www.youtube.com/embed/HRjnmzi4UPU",
     "img": {
-      "img": "2021_P&V.png",
+      "src": "2021_P&V.png",
       "alt": "still from the commercial showing an empty crib in a child's room."
     },
     "description": "Advertisment for P&V Group (assurances). Campaign during covid-pandemic. Written and directed by Khaël Touag, produced by Landvogel.",
-    "director": "Khaël Touag",
-    "producer": "Landvogel",
-    "cinematography": "Xavier Van D'huynslager"
+    "production":{
+      "director": "Khaël Touag",
+      "producer": "Landvogel",
+      "cinematography": "Xavier Van D'huynslager"
+    }
   },
   {
     "id": "2020-undeuxtroissoleil",
@@ -91,10 +97,12 @@
       "alt": "still from the commercial showing a youth worker in a basketball court"
     },
     "description": "Campaign for Youth at Social Risk written and directed by Khaël Touag. Shot by Virgil Leclercq, produced by Les Mecs.",
-    "director": "Khaël Touag",
-    "writer": "Khaël Touag",
-    "cinematography": "Virgil Leclercq",
-    "producer": "LES MECS"
+    "production":{
+      "director": "Khaël Touag",
+      "writer": "Khaël Touag",
+      "cinematography": "Virgil Leclercq",
+      "producer": "LES MECS"
+    }
   },
   {
     "id": "2020-nest",
@@ -103,13 +111,15 @@
     "type": "narrative content",
     "source": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1174186456&color=%23a2a8a8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
     "img": {
-      "img": "2020_nest.jpg",
+      "src": "2020_nest.jpg",
       "alt": "filmstill from NEST showing Boris"
     },
     "description": "After a night out Boris, a young man in his twenties, finds his mother awake and waiting at home. While dreaming of independence, he struggles with feelings of loyalty towards his recently divorced parents. Meanwhile, he shuttles between the nightclub, the darkroom at home and his job as photographer, looking for a step forward.",
-    "director": "Matthee van Holderbeke",
-    "writer": "Matthee van Holderbeke",
-    "cinematography": "Angela Otten"
+    "production":{
+      "director": "Matthee van Holderbeke",
+      "writer": "Matthee van Holderbeke",
+      "cinematography": "Angela Otten"
+    }
   },
   {
     "id": "frowst",
@@ -132,8 +142,10 @@
       "alt": "filmstill showing Julian sitting on a ledge, drawing."
     },
     "source": "https://player.vimeo.com/video/211292107?h=d342e3ef96",
-    "description": "Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life.",
-    "director": "Maxime Fauconnier",
-    "writer": "Maxime Fauconnier"
+    "production":{
+      "description": "Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life.",
+      "director": "Maxime Fauconnier",
+      "writer": "Maxime Fauconnier"
+    }
   }
 ]
