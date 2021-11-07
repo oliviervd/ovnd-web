@@ -9,8 +9,10 @@ const contact = () => {
             <title>contact page</title>
         </head>
         <body>
-        <Navbar/>
-        <h1> UNDER CONSTRUCTION </h1>
+        <div className={"ScContainer"}>
+            <Navbar/>
+            <h1> UNDER CONSTRUCTION </h1>
+        </div>
         </body>
         </html>
     )
