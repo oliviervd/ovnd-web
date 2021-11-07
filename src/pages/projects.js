@@ -1,6 +1,7 @@
 import React from "react";
 import ReactPlayer from 'react-player'
 import Navbar from "../components/navbar/navbar";
+import Footer from "../components/footer/footer";
 
 const ProjectSum = () => {
     return (
@@ -17,6 +18,7 @@ const ProjectSum = () => {
                 <br/>
             </div>
         </div>
+        <Footer></Footer>
         </body>
         </html>
     )

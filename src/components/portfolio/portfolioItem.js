@@ -18,7 +18,7 @@ const PortfolioItem = () => {
     return(
 
         <div className="wrap">
-            <Box className="projectPage">
+            <Box className="projectPage padding">
 
                 <Box flex={2} className="infoBox">
 
@@ -48,6 +48,8 @@ const PortfolioItem = () => {
                             return <p><strong>cinematography: </strong>{x.map(x => <div>{o.production.cinematography}</div>)}</p>
                         }})}
 
+                    <hr/>
+                    <br/>
                     {/* media source  */}
                     {x.map((o) => {
                         if (typeof o.source != 'undefined') {
