@@ -23,9 +23,25 @@ const PortfolioItem = () => {
                     <h1>{x.map(x => <div>{x.title}</div>)}</h1>
                     <p>{x.map(x => <div>{x.year}</div>)}</p>
                     <p>{x.map(x => <div>{x.description}</div>)}</p>
-                    <p>director: {x.map(x => <div>{x.director}</div>)}</p>
-                    <p>written by: {x.map(x => <div>{x.writer}</div>)}</p>
-                    <p>cinematography: {x.map(x => <div>{x.cinematography}</div>)}</p>
+
+                    {/* director */}
+                    {x.map((o) => {
+                        if (typeof o.production != 'undefined') {
+                        return <p><strong>director: </strong>{x.map(x => <div>{o.production.director}</div>)}</p>
+                    }})}
+
+                    {/* writer */}
+                    {x.map((o) => {
+                        if (typeof o.production != 'undefined') {
+                            return <p><strong>written by: </strong>{x.map(x => <div>{o.production.writer}</div>)}</p>
+                        }})}
+
+                    {/* cinematographer */}
+                    {x.map((o) => {
+                        if (typeof o.production != 'undefined') {
+                            return <p><strong>cinematography: </strong>{x.map(x => <div>{o.production.cinematography}</div>)}</p>
+                        }})}
+
                 </Box>
                 <Box flex={4}>
                     <img
