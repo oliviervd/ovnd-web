@@ -10,10 +10,12 @@ const ProjectSum = () => {
             <title>creative coding projects</title>
         </head>
         <body>
-        <Navbar/>
-        <div className="App">
-            <ReactPlayer className="cinema" url='https://www.dropbox.com/s/8avv08dvlw7sd8n/0001-0686.mp4?dl=0' playing={true} loop={true} width="900px" height="630px" />
-            <br/>
+        <div className={"ScContainer"}>
+            <Navbar/>
+            <div className="App">
+                <ReactPlayer className="cinema" url='https://www.dropbox.com/s/8avv08dvlw7sd8n/0001-0686.mp4?dl=0' playing={true} loop={true} width="900px" height="630px" />
+                <br/>
+            </div>
         </div>
         </body>
         </html>
