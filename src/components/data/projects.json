@@ -73,7 +73,12 @@
       "src": "2021_ARAP.png",
       "alt": "film still of Au Revoir Au Printemps"
     },
-    "description": "Au Revoir Au Printemps is a short film that follows young Issam on his way with his father, Cherif, and Ilies, his older brother. A phone call will lead them to a hardware store, where a family argument will push them to find an answer to the question, 'what is it to be a man?'"
+    "description": "Au Revoir Au Printemps is a short film that follows young Issam on his way with his father, Cherif, and Ilies, his older brother. A phone call will lead them to a hardware store, where a family argument will push them to find an answer to the question, 'what is it to be a man?'",
+    "production": {
+      "director": "Khaël Touag",
+      "writer": "Khaël Touag",
+      "cinematography": "Xavier Van D'huynslager"
+    }
   },
   {
     "id": "2021-pv",
