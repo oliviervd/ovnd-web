@@ -1,21 +1,30 @@
 .App {
   margin-top: 8px;
   text-align: center;
+  margin-inline: auto;
   font-family: "roboto", sans-serif;
-  padding: 1.5rem;
 }
 
-h1 {
-  display: flex;
-  color: lightsalmon;
+
+h1, h2, h3 {
+  color: indianred;
+  font-family: "roboto", sans-serif;
+}
+
+h1.uppercase {
+  text-transform: uppercase;
+}
+
+
+.subText {
 }
 
 
 a {
-  color: lightsalmon;
+  color: indianred;
   text-decoration: none;
   &:hover {
-    color: lightblue;
+    color: peachpuff;
     text-decoration: none;
   }
 
@@ -44,6 +53,32 @@ a {
   display: block
 }
 
+.portfolioLine {
+  display: flex;
+  flex-direction: row;
+  border-top: black solid;
+  border-top-width: thin;
+  border-top-style: dot-dash;
+  @media screen and (max-width: 769px) {
+    flex-direction: column;
+  }
+
+}
+
+.gridInfo {
+  flex-direction: column;
+  padding-right: 10vw;
+  @media screen and (max-width: 1800px) {
+    width: 60vw;
+  }
+  @media screen and (max-width: 1600px) {
+    width: 40vw;
+  }
+  @media screen and (max-width: 900px) {
+    width: 95vw;
+  }
+}
+
 .projectPage {
   display: flex;
   padding: 100px;
@@ -54,10 +89,14 @@ a {
 .infoBox{
   border: lightsalmon;
   width: 35vw;
-  padding-right: 50vw;
+  padding-right: 5vw;
 }
 
 /* media */
+
+.filmStill {
+  width: 45vw;
+}
 
 .cinema {
   background: black;
@@ -68,11 +107,29 @@ a {
 
 .vimeoBox {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 50px;
   align-items: flex-start;
-  padding-left: 200px;
-  padding-right: 200px;
+}
+
+.thumbnail{
+  width:320px;
+  height:180px;
+  float: left;
+  @media screen and (max-width: 1500px) {
+    padding: 2vw;
+  }
+  @media screen and (max-width: 768px) {
+    position: center;
+    width: 768px;
+    padding: 2vw
+  }
+  @media screen and (max-width: 375px) {
+    position: center;
+    max-width: 99%;
+    padding: 2vw
+  }
 }
 
 .cover {
@@ -82,6 +139,7 @@ a {
 /* navigation bar */
 
 .wrap {
+  position: relative;
   padding: 1.5rem;
 }
 
@@ -121,6 +179,39 @@ nav {
         }
       }
     }
+  }
+}
+
+@media (min-width: 375px) {
+  .ScContainer {
+    width: 375px;
+    marging: 0 auto;
+    border: 0;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .ScContainer {
+    width: 768px;
+    margin: 0 auto;
+    border: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .ScContainer {
+    width: 1280px;
+    margin: 0 auto;
+    border: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .ScContainer {
+    width: 1920px;
+    margin: 0 auto;
+    border: 0;
   }
 }
 
