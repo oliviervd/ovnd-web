@@ -1,8 +1,6 @@
 import React from "react";
 import PortfolioItem from "../components/portfolio/portfolioItem";
 import Navbar from "../components/navbar/navbar";
-import Footer from "../components/footer/footer";
-import {useParams} from "react-router-dom";
 
 
 const project = () => {
@@ -17,7 +15,6 @@ const project = () => {
             <Navbar/>
             <PortfolioItem/>
         </div>
-        <Footer></Footer>
         </body>
         </html>
     )

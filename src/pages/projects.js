@@ -18,7 +18,7 @@ const ProjectSum = () => {
                 <br/>
             </div>
         </div>
-        <Footer></Footer>
+        <Footer/>
         </body>
         </html>
     )
