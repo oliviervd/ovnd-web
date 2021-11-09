@@ -13,7 +13,6 @@ function getval(id) {
 const PortfolioItem = () => {
     const { id } = useParams();
     const x = getval(id)
-    const _path = "/media/img/" + x.map(x => x.img.src)
 
     return(
 
@@ -66,10 +65,13 @@ const PortfolioItem = () => {
 
                 </Box>
                 <Box flex={4}>
-                    <img
-                        src= {_path} className="filmStill"
-                        alt= {x.map(x => <div>{x.img.alt}</div>)}
-                    />
+                    {/* image  */}
+                    {x.map((o) => {
+                        if (typeof o.img != 'undefined') {
+                            const _path = "/media/img/" + x.map(x => o.img.src)
+                            return <img src= {_path} className="filmStill" />
+                        }
+                    })}
                 </Box>
             </Box>
         </div>
