@@ -1,13 +1,32 @@
+.dark-primary-color    { background: #D32F2F; }
+.default-primary-color { background: #F44336; }
+.light-primary-color   { background: #FFCDD2; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #9E9E9E; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
 .App {
   margin-top: 8px;
   text-align: center;
   margin-inline: auto;
   font-family: "roboto", sans-serif;
+  background-color: #FFFFFF;
 }
 
+p, a {
+  color: #212121;
+  font-family: "roboto", sans-serif;
+  padding: 8px;
+  letter-spacing: .2rem;
+  font-size: .9rem;
+  text-decoration: none;
+  color: #212121;
+}
 
-h1, h2, h3 {
-  color: indianred;
+h1, h2, h3, h5 {
+  color:  #F44336;
   font-family: "roboto", sans-serif;
 }
 
@@ -21,10 +40,10 @@ h1.uppercase {
 
 
 a {
-  color: indianred;
+  color: #F44336;
   text-decoration: none;
   &:hover {
-    color: peachpuff;
+    color: #FFCDD2;
     text-decoration: none;
   }
 
@@ -99,7 +118,7 @@ a {
 }
 
 .infoBox{
-  border: lightsalmon;
+  border: #FFCDD2;
   width: 35vw;
   padding-right: 5vw;
 }
@@ -219,7 +238,7 @@ nav {
         font-size: .9rem;
         text-decoration: none;
         text-transform: uppercase;
-        color: black;
+        color: #212121;
         transition: color 150ms ease-out;
 
         &:hover {
