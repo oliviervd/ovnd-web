@@ -1,7 +1,7 @@
 [
   {"id": "2022-parade",
     "title": "Parade (post-production)",
-    "year": "2021",
+    "year": "2022",
     "type": "documentary",
     "production": {
       "director": "Sam Debaecke",
@@ -148,11 +148,11 @@
     "title": "Frøwst",
     "year": "2017-2019",
     "type": "band",
+    "description": "Indie / Post / Ambient / Pop",
     "img": {
       "src": "frowst.jpg",
       "alt": "Frowst on stage at the Vooruit in Ghent (Belgium)"
-    },
-    "description": "Indie / Post / Ambient / Pop"
+    }
   },
   {
     "id": "2018-julian",
@@ -164,8 +164,8 @@
       "alt": "filmstill showing Julian sitting on a ledge, drawing."
     },
     "source": "https://player.vimeo.com/video/211292107?h=d342e3ef96",
+    "description": "JULIAN is a poetic coming-of-age drama exploring the violence of being young and the hunger to find transcendence. Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life."
     "production":{
-      "description": "Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life.",
       "director": "Maxime Fauconnier",
       "writer": "Maxime Fauconnier"
     }
