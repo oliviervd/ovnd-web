@@ -34,7 +34,7 @@
       "bandcamp": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=CD5C5C/minimal=true/transparent=true/"
     },
     "img": {
-      "src": "2021_Helene.png",
+      "src": "2021_Helene.jpg",
       "alt": "Marie-Hélène lying on a bed drinking water"
     },
     "description": "soft memories."
@@ -79,7 +79,7 @@
     "type": "narrative",
     "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=CD5C5C/tracklist=false/artwork=small/transparent=true/",
     "img": {
-      "src": "2021_ARAP.png",
+      "src": "2021_ARAP.jpg",
       "alt": "film still of Au Revoir Au Printemps"
     },
     "description": "Au Revoir Au Printemps is a short film that follows young Issam on his way with his father, Cherif, and Ilies, his older brother. A phone call will lead them to a hardware store, where a family argument will push them to find an answer to the question, 'what is it to be a man?'",
@@ -96,7 +96,7 @@
     "type": "advertisment",
     "source": "https://www.youtube.com/embed/HRjnmzi4UPU",
     "img": {
-      "src": "2021_P&V.png",
+      "src": "2021_P&V.jpg",
       "alt": "still from the commercial showing an empty crib in a child's room."
     },
     "description": "Advertisment for P&V Group (assurances). Campaign during covid-pandemic. Written and directed by Khaël Touag, produced by Landvogel.",
@@ -113,7 +113,7 @@
     "type": "advertisement",
     "source": "https://player.vimeo.com/video/393541385?h=c28bfde478",
     "img": {
-      "src": "2020_UDTS.png",
+      "src": "2020_UDTS.jpg",
       "alt": "still from the commercial showing a youth worker in a basketball court"
     },
     "description": "Campaign for Youth at Social Risk written and directed by Khaël Touag. Shot by Virgil Leclercq, produced by Les Mecs.",
@@ -160,7 +160,7 @@
     "year": "2018",
     "type": "narrative",
     "img": {
-      "src": "2018_Julian.png",
+      "src": "2018_Julian.jpg",
       "alt": "filmstill showing Julian sitting on a ledge, drawing."
     },
     "source": "https://player.vimeo.com/video/211292107?h=d342e3ef96",
