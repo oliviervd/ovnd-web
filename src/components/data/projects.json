@@ -1,4 +1,13 @@
 [
+  {"id": "2022-parade",
+    "title": "Parade (post-production)",
+    "year": "2021",
+    "type": "documentary",
+    "production": {
+      "director": "Sam Debaecke",
+      "writer": "Sam Debaecke"
+    }
+  },
   {
     "id": "2021-wacht",
     "title": "Wacht",
