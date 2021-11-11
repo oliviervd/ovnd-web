@@ -75,8 +75,10 @@ a {
 /* portfolio */
 /* --- MOBILE --- */
 .portfolio {
-  display: flex;
-  flex-direction: column-reverse;
+  @media screen and (max-width: 900px){
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 .portfolioInfo {
@@ -86,7 +88,7 @@ a {
 }
 
 .portfolioImage{
-  width: auto;
+  width: 95vw;
 }
 
 .gridInfo {

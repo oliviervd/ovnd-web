@@ -20,7 +20,7 @@ const PortfolioItem = () => {
 
                 <div className="portfolioInfo">
 
-                    <div className={"portfolioLine"}>
+                    <div className={"portfolioInfo"}>
                         <h1 class="uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
                     </div>
                     <div className={"portfolioLine"}>

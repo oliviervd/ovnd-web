@@ -11,7 +11,7 @@ const project = () => {
             <title>portfolio item</title>
         </head>
         <body>
-        <div className={"ScContainer"}>
+        <div>
             <Navbar/>
             <PortfolioItem/>
         </div>
