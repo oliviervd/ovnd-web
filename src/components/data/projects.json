@@ -51,7 +51,7 @@
       "src": "2021_ADOTH.jpeg",
       "alt": "film still showing a piece of charcoal on a white background"
     },
-    "description": "Forest becomes object. Object gains agency and maintains a murky relationship with the human species. Written and directed by Jannes Callens, Cinematography: Sven Aerts, Sound: Nicolas Van Ruysevelt, Montage: Arnaud Batog",
+    "description": "Forest becomes object. Object gains agency and maintains a murky relationship with the human species.",
     "production":{
       "director": "Jannes Callens",
       "writer": "Jannes Callens",
@@ -163,7 +163,10 @@
       "src": "2018_Julian.jpg",
       "alt": "filmstill showing Julian sitting on a ledge, drawing."
     },
-    "source": "https://player.vimeo.com/video/211292107?h=d342e3ef96",
+    "source": {
+      "vimeo":"https://player.vimeo.com/video/211292107?h=d342e3ef96",
+      "soundcloud": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346066432&color=%23cd5c5c&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+    },
     "description": "JULIAN is a poetic coming-of-age drama exploring the violence of being young and the hunger to find transcendence. Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life.",
     "production":{
       "director": "Maxime Fauconnier",

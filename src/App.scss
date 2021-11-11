@@ -72,16 +72,21 @@ a {
   display: block
 }
 
-.portfolioLine {
+/* portfolio */
+/* --- MOBILE --- */
+.portfolio {
   display: flex;
-  flex-direction: row;
-  border-top: black solid;
-  border-top-width: thin;
-  border-top-style: dot-dash;
-  @media screen and (max-width: 769px) {
-    flex-direction: column;
-  }
+  flex-direction: column-reverse;
+}
 
+.portfolioInfo {
+  width: 95vw;
+  padding: 2.5vw;
+  margin: auto;
+}
+
+.portfolioImage{
+  width: auto;
 }
 
 .gridInfo {
@@ -96,6 +101,18 @@ a {
   @media screen and (max-width: 900px) {
     width: 95vw;
   }
+}
+
+.portfolioLine {
+  display: flex;
+  flex-direction: row;
+  border-top: black solid;
+  border-top-width: thin;
+  border-top-style: dot-dash;
+  @media screen and (max-width: 769px) {
+    flex-direction: column;
+  }
+
 }
 
 .padding {
@@ -151,7 +168,9 @@ a {
 }
 
 .filmStill {
-  width: 45vw;
+  width: 95vw;
+  margin: auto;
+  padding: 2.5vw;
 }
 
 .cinema {

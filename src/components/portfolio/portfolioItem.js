@@ -16,17 +16,16 @@ const PortfolioItem = () => {
 
     return(
 
-        <div className="wrap">
-            <Box className="projectPage padding">
+        <div className="portfolio">
 
-                <Box flex={2} className="infoBox">
+                <div className="portfolioInfo">
 
-                    <Box flex={3} className={"portfolioLine"}>
+                    <div className={"portfolioLine"}>
                         <h1 class="uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
-                    </Box>
-                    <Box flex={1} className={"portfolioLine"}>
+                    </div>
+                    <div className={"portfolioLine"}>
                         <p>{x.map(x => <div>{x.year}</div>)}</p>
-                    </Box>
+                    </div>
                     <p>{x.map(x => <div>{x.description}</div>)}</p>
 
                     {/* director */}
@@ -56,15 +55,15 @@ const PortfolioItem = () => {
                                 return <iframe className={"media_bandcamp"} src={o.source.bandcamp} seamless/>
                             } else {
                                 if (typeof o.source.soundcloud != 'undefined') {
-                                    return <iframe width="100%" height="450" scrolling="no" frameBorder="no"
+                                    return <iframe width="100%" height="300" scrolling="no" frameBorder="no"
                                                    allow="autoplay"
                                                    src={o.source.soundcloud}/>
                                 }
                             }
                         }})}
 
-                </Box>
-                <Box flex={4}>
+                </div>
+                <div className="portfolioImage">
                     {/* image  */}
                     {x.map((o) => {
                         if (typeof o.img != 'undefined') {
@@ -72,8 +71,7 @@ const PortfolioItem = () => {
                             return <img src= {_path} className="filmStill" />
                         }
                     })}
-                </Box>
-            </Box>
+                </div>
         </div>
     )
 }
