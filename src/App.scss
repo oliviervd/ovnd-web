@@ -73,22 +73,54 @@ a {
 }
 
 /* portfolio */
-/* --- MOBILE --- */
 .portfolio {
-  @media screen and (max-width: 900px){
-    display: flex;
+  display: flex;
+  gap: 1vw;
+  flex-direction: column-reverse;
+  /* --- MOBILE --- */
+  @media screen and (min-width: 900px) {
     flex-direction: column-reverse;
   }
 }
 
 .portfolioInfo {
   width: 95vw;
-  padding: 2.5vw;
   margin: auto;
+  padding-left: 1vw;
+  @media screen and (min-width: 1500px) {
+    width: 30vw;
+  }
 }
 
 .portfolioImage{
   width: 95vw;
+  @media screen and (min-width: 1500px) {
+    width: 70vw;
+  }
+}
+
+.scroll_text {
+  display: flex;
+  padding: 0 30px;
+  font-size: 170px;
+  line-height: 100px;
+}
+
+.title_scroller {
+  display: flex;
+  animation-direction: reverse;
+  animation-duration: 20s;
+  animation-play-state: running;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-name: _test;
+}
+
+@keyframes _test {
+  0% {transform: translate3d(0%, 0, 0);}
+  100% {transform: translate3d(-100%, 0, 0)}
 }
 
 .gridInfo {
@@ -170,9 +202,12 @@ a {
 }
 
 .filmStill {
-  width: 95vw;
   margin: auto;
   padding: 2.5vw;
+  width: 95vw;
+  @media screen and (min-width: 1500px) {
+    width: 45vw;
+  }
 }
 
 .cinema {

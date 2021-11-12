@@ -19,10 +19,6 @@ const PortfolioItem = () => {
         <div className="portfolio">
 
                 <div className="portfolioInfo">
-
-                    <div className={"portfolioInfo"}>
-                        <h1 class="uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
-                    </div>
                     <div className={"portfolioLine"}>
                         <p>{x.map(x => <div>{x.year}</div>)}</p>
                     </div>
@@ -72,6 +68,12 @@ const PortfolioItem = () => {
                         }
                     })}
                 </div>
+            <div className="title_scroller">
+                <h1 className="scroll_text uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
+                <h1 className="scroll_text uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
+                <h1 className="scroll_text uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
+                <h1 className="scroll_text uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
+            </div>
         </div>
     )
 }
