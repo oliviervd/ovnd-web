@@ -90,16 +90,24 @@ a {
 
 .portfolioItem {
   display: flex;
+  padding-left: 25vw;
   grid-template-columns: 1fr 1fr;
+  @media screen and (max-width: 1500px) {
+    padding-left: 0vw;
+  }
   @media screen and (max-width: 1000px) {
     flex-direction: column;
   }
 }
 
 .portfolioInfo {
+  display: flex;
+  padding-left: 25vw;
+  flex-direction: column;
   width: 95vw;
   margin: auto;
   padding-left: 1vw;
+  align-items: flex-start;
   @media screen and (min-width: 1500px) {
     width: 30vw;
   }
@@ -234,10 +242,7 @@ a {
 .filmStill {
   margin: auto;
   padding: 2.5vw;
-  width: 95vw;
-  @media screen and (min-width: 1500px) {
-    width: 45vw;
-  }
+  width: 45vw;
 }
 
 .cinema {
