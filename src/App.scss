@@ -79,7 +79,7 @@ a {
   flex-direction: column-reverse;
   /* --- MOBILE --- */
   @media screen and (min-width: 900px) {
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
 }
 
@@ -89,8 +89,11 @@ a {
 }
 
 .portfolioItem {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+  }
 }
 
 .portfolioInfo {
@@ -171,7 +174,7 @@ a {
   border-top-width: thin;
   border-top-style: dot-dash;
   @media screen and (max-width: 769px) {
-    flex-direction: column;
+    flex-direction: row;
   }
 
 }
