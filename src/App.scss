@@ -83,6 +83,16 @@ a {
   }
 }
 
+.portfolioBox {
+  display: block;
+  position: relative;
+}
+
+.portfolioItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .portfolioInfo {
   width: 95vw;
   margin: auto;
@@ -99,6 +109,11 @@ a {
   }
 }
 
+#scroll-container {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
 .scroll_text {
   display: flex;
   padding: 0 30px;
@@ -108,6 +123,10 @@ a {
 
 .title_scroller {
   display: flex;
+  transition-property: color;
+  transition-duration: 35s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
   animation-direction: reverse;
   animation-duration: 20s;
   animation-play-state: running;
@@ -119,8 +138,16 @@ a {
 }
 
 @keyframes _test {
-  0% {transform: translate3d(0%, 0, 0);}
-  100% {transform: translate3d(-100%, 0, 0)}
+  0% {
+    -webkit-transform: translate3d(0%, 0, 0);
+    -moz-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate3d(0%, 0, 0);
+    -moz-transform: translate3d(0%, 0, 0);
+    transform: translate3d(-100%, 0px, 0px);
+  }
 }
 
 .gridInfo {
