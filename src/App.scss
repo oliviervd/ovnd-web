@@ -374,3 +374,34 @@ nav {
   }
 }
 
+//hamburger navbar
+.navBurger {
+  position: relative;
+}
+
+.navBurger button {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menuNavBurger{
+  overflow-y: scroll;
+  position: fixed;
+  list-style: none;
+  top: 0;
+  left:0;
+  bottom:0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+}
+
+.menuNavBurger .showMenu {
+  width: 100%;
+}
+
