@@ -326,6 +326,7 @@ nav {
     li {
       a {
         padding: 8px;
+        display:block;
         letter-spacing: .2rem;
         font-size: .9rem;
         text-decoration: none;
@@ -403,5 +404,9 @@ nav {
 
 .menuNavBurger .showMenu {
   width: 100%;
+}
+
+.menuNavBurger li:first-child {
+  margin-top: 7rem;
 }
 
