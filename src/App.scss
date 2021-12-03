@@ -22,7 +22,6 @@ p, a {
   letter-spacing: .2rem;
   font-size: .9rem;
   text-decoration: none;
-  color: #212121;
 }
 
 h1, h2, h3, h5 {
@@ -93,7 +92,7 @@ a {
   padding-left: 25vw;
   grid-template-columns: 1fr 1fr;
   @media screen and (max-width: 1500px) {
-    padding-left: 0vw;
+    padding-left: 0;
   }
   @media screen and (max-width: 1000px) {
     flex-direction: column;
@@ -102,7 +101,6 @@ a {
 
 .portfolioInfo {
   display: flex;
-  padding-left: 25vw;
   flex-direction: column;
   width: 95vw;
   margin: auto;
@@ -326,6 +324,7 @@ nav {
     li {
       a {
         padding: 8px;
+        display:block;
         letter-spacing: .2rem;
         font-size: .9rem;
         text-decoration: none;
@@ -344,7 +343,7 @@ nav {
 @media (min-width: 375px) {
   .ScContainer {
     width: 375px;
-    marging: 0 auto;
+    margin: 0 auto;
     border: 0;
     overflow-x: hidden;
   }
@@ -374,3 +373,48 @@ nav {
   }
 }
 
+//hamburger navbar
+.navBurger {
+  position: relative;
+}
+
+.menuNavBurger{
+  //position: fixed;
+  list-style: none;
+  top: 0;
+  left:0;
+  bottom:0;
+  width: 0;
+  background: #FFCDD2;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+}
+
+.showMenu {
+  width: 100%;
+  background: #D32F2F;
+}
+
+.menuNavBurger li:first-child {
+  margin-top: 7rem;
+}
+
+button{
+  border: none;
+  background: #FFFFFF;
+}
+
+@media (max-width: 700px) {
+  .showMenu{
+    margin-left: 10vw;
+  }
+
+  .navBurger button {
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    z-index: 10;
+    cursor: pointer;
+  }
+}
