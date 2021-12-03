@@ -378,14 +378,6 @@ nav {
   position: relative;
 }
 
-.navBurger button {
-  position: fixed;
-  left: 40px;
-  top: 40px;
-  z-index: 10;
-  cursor: pointer;
-}
-
 .menuNavBurger{
   //position: fixed;
   list-style: none;
@@ -411,4 +403,18 @@ nav {
 button{
   border: none;
   background: #FFFFFF;
+}
+
+@media (max-width: 700px) {
+  .showMenu{
+    margin-left: 10vw;
+  }
+
+  .navBurger button {
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    z-index: 10;
+    cursor: pointer;
+  }
 }
