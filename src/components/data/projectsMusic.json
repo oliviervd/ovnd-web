@@ -1,5 +1,20 @@
 [
-  {"id": "2022-parade",
+  {
+    "id": "2021-helene",
+    "title": "Hélène",
+    "year": "2021 - ...",
+    "type": "solo",
+    "source": {
+      "bandcamp": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=CD5C5C/minimal=true/transparent=true/"
+    },
+    "img": {
+      "src": "2021_Helene.jpg",
+      "alt": "Marie-Hélène lying on a bed drinking water"
+    },
+    "description": "ongoing soft memories for a loved one lost to early. Thank you for being there. For bringing me here."
+  },
+  {
+    "id": "2022-parade",
     "title": "Parade (post-production)",
     "year": "2022",
     "type": "documentary",
@@ -10,7 +25,8 @@
     },
     "production": {
       "director": "Sam Debaecke",
-      "writer": "Sam Debaecke"
+      "writer": "Sam Debaecke",
+      "cinematography": "Sam Debaecke"
     }
   },
   {
@@ -23,7 +39,7 @@
       "alt": "film still showing mathilde lying in the grass with a pink shirt."
     },
     "description": "Mathilde is 10 years old. She is a young rough, a drifter and a connoisseur of 90s pop ballads. She walks along a deserted road with no beginning or end. She is accompanied by Danielle, who is her spitting image. Both are waiting for tomorrow, a day their dreams might come true.",
-    "production":{
+    "production": {
       "director": "Sophie Kurpershoek",
       "writer": "Sophie Kurpershoek",
       "cinematography": "Xavier Van D'huynslager",
@@ -48,20 +64,6 @@
     }
   },
   {
-    "id": "2021-helene",
-    "title": "Hélène",
-    "year": "2021",
-    "type": "solo",
-    "source": {
-      "bandcamp": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=CD5C5C/minimal=true/transparent=true/"
-    },
-    "img": {
-      "src": "2021_Helene.jpg",
-      "alt": "Marie-Hélène lying on a bed drinking water"
-    },
-    "description": "soft memories for a loved one lost. Thank you for being there."
-  },
-  {
     "id": "2021-adarkhorizonofthought",
     "title": "A Dark Horizon of Thought",
     "year": "2021",
@@ -74,7 +76,7 @@
       "alt": "film still showing a piece of charcoal on a white background"
     },
     "description": "Forest becomes object. Object gains agency and maintains a murky relationship with the human species.",
-    "production":{
+    "production": {
       "director": "Jannes Callens",
       "writer": "Jannes Callens",
       "cinematography": "Sven Aerts"
@@ -122,7 +124,7 @@
       "alt": "still from the commercial showing an empty crib in a child's room."
     },
     "description": "Advertisment for P&V Group (assurances). Campaign during covid-pandemic. Written and directed by Khaël Touag, produced by Landvogel.",
-    "production":{
+    "production": {
       "director": "Khaël Touag",
       "producer": "Landvogel",
       "cinematography": "Xavier Van D'huynslager"
@@ -133,13 +135,15 @@
     "title": "un, deux, trois, soleil",
     "year": "2020",
     "type": "advertisement",
-    "source": "https://player.vimeo.com/video/393541385?h=c28bfde478",
+    "source": {
+      "vimeo": "https://player.vimeo.com/video/359763373?h=34927d76eb&title=0&byline=0&portrait=0"
+    },
     "img": {
       "src": "2020_UDTS.jpg",
       "alt": "still from the commercial showing a youth worker in a basketball court"
     },
     "description": "Campaign for Youth at Social Risk written and directed by Khaël Touag. Shot by Virgil Leclercq, produced by Les Mecs.",
-    "production":{
+    "production": {
       "director": "Khaël Touag",
       "writer": "Khaël Touag",
       "cinematography": "Virgil Leclercq",
@@ -159,7 +163,7 @@
       "alt": "filmstill from NEST showing Boris"
     },
     "description": "After a night out Boris, a young man in his twenties, finds his mother awake and waiting at home. While dreaming of independence, he struggles with feelings of loyalty towards his recently divorced parents. Meanwhile, he shuttles between the nightclub, the darkroom at home and his job as photographer, looking for a step forward.",
-    "production":{
+    "production": {
       "director": "Matthee van Holderbeke",
       "writer": "Matthee van Holderbeke",
       "cinematography": "Angela Otten"
@@ -186,11 +190,11 @@
       "alt": "filmstill showing Julian sitting on a ledge, drawing."
     },
     "source": {
-      "vimeo":"https://player.vimeo.com/video/211292107?h=d342e3ef96",
+      "vimeo": "https://player.vimeo.com/video/211292107?h=d342e3ef96",
       "soundcloud": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346066432&color=%23cd5c5c&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
     },
     "description": "JULIAN is a poetic coming-of-age drama exploring the violence of being young and the hunger to find transcendence. Trapped in a big city, haunted by his contradictions and isolated from his friends, Julian is a teenager yearning for direction and substance. The vision of a secluded island slowly hijacks his daily life.",
-    "production":{
+    "production": {
       "director": "Maxime Fauconnier",
       "writer": "Maxime Fauconnier"
     }
