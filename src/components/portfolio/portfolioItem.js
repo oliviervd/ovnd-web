@@ -37,18 +37,21 @@ const PortfolioItem = () => {
                         <p>{x.map(x => <div>{x.description}</div>)}</p>
 
                         {/* director */}
+                        {/* eslint-disable-next-line array-callback-return */}
                         {x.map((o) => {
                             if (typeof o.production != 'undefined') {
                                 return <p><strong>director: </strong>{x.map(x => <div>{o.production.director}</div>)}</p>
                             }})}
 
                         {/* writer */}
+                        {/* eslint-disable-next-line array-callback-return */}
                         {x.map((o) => {
                             if (typeof o.production != 'undefined') {
                                 return <p><strong>written by: </strong>{x.map(x => <div>{o.production.writer}</div>)}</p>
                             }})}
 
                         {/* cinematographer */}
+                        {/* eslint-disable-next-line array-callback-return */}
                         {x.map((o) => {
                             if (typeof o.production != 'undefined') {
                                 return <p><strong>cinematography: </strong>{x.map(x => <div>{o.production.cinematography}</div>)}</p>
@@ -57,6 +60,7 @@ const PortfolioItem = () => {
                         <hr/>
                         <br/>
                         {/* media source  */}
+                        {/* eslint-disable-next-line array-callback-return */}
                         {x.map((o) => {
                             if (typeof o.source != 'undefined') {
                                 if (typeof o.source.bandcamp != 'undefined') {
@@ -78,6 +82,7 @@ const PortfolioItem = () => {
                     </div>
                     <div className="portfolioImage">
                         {/* image  */}
+                        {/* eslint-disable-next-line array-callback-return */}
                         {x.map((o) => {
                             if (typeof o.img != 'undefined') {
                                 const _path = "/media/img/" + x.map(x => o.img.src)
