@@ -1,17 +1,17 @@
 import React from "react";
 import Navbar from "../components/navbar/navbar";
+import ContactForm from "../components/forms/contactForm";
 
 const contact = () => {
     return (
         <html>
         <head>
-            <meta charset="utf-8"/>
             <title>contact page</title>
         </head>
         <body>
         <div className={"ScContainer"}>
             <Navbar/>
-            <h1> UNDER CONSTRUCTION </h1>
+            <ContactForm/>
         </div>
         </body>
         </html>
