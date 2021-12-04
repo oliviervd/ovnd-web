@@ -7,17 +7,27 @@
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
 
+@font-face {
+  font-family: "BluuNext-Bold";
+  src: local("BluuNext-Bold"), url(font/BluuNext-Bold.otf);
+}
+
+@font-face {
+  font-family: "CothamSans";
+  src: local("CothamSans"), url(font/CothamSans.otf);
+}
+
 .App {
   margin-top: 8px;
   text-align: center;
   margin-inline: auto;
-  font-family: "roboto", sans-serif;
+  font-family: "BluuNext-Bold", sans-serif;
   background-color: #FFFFFF;
 }
 
 p, a {
   color: #212121;
-  font-family: "roboto", sans-serif;
+  font-family: "CothamSans", sans-serif;
   padding: 8px;
   letter-spacing: .2rem;
   font-size: .9rem;
@@ -26,7 +36,7 @@ p, a {
 
 h1, h2, h3, h5 {
   color:  #F44336;
-  font-family: "roboto", sans-serif;
+  font-family: "BluuNext-Bold", sans-serif;
 }
 
 h1.uppercase {
