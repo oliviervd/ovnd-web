@@ -112,6 +112,7 @@ a {
 .portfolioInfo {
   display: flex;
   flex-direction: column;
+  border-right: 6px solid #D32F2F;
   width: 95vw;
   margin: auto;
   padding-left: 1vw;
@@ -191,13 +192,19 @@ a {
 .portfolioLine {
   display: flex;
   flex-direction: row;
-  border-top: black solid;
+  border-top: solid #BDBDBD;
   border-top-width: thin;
   border-top-style: dot-dash;
   @media screen and (max-width: 769px) {
     flex-direction: row;
   }
+}
 
+.gradLine {
+  display: flex;
+  flex-direction: row;
+  height: 1px;
+  background: linear-gradient(90deg, #F44336 0%, #FFCDD2 100%);
 }
 
 .padding {
