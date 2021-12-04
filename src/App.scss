@@ -184,7 +184,7 @@ a {
     width: 40vw;
   }
   @media screen and (max-width: 900px) {
-    width: 95vw;
+    width: 90vw;
   }
 }
 
@@ -228,6 +228,9 @@ a {
 .footer{
   display: flex;
   flex-direction: row;
+  @media screen and (max-width: 786px) {
+    display: none;
+  }
 }
 
 .footer-inner{
@@ -393,7 +396,7 @@ nav {
 }
 
 .menuNavBurger{
-  //position: fixed;
+  //position: relative;
   list-style: none;
   top: 0;
   left:0;
