@@ -10,9 +10,6 @@ import about from "./pages/about";
 import contact from "./pages/contact";
 import project from "./pages/project";
 
-//data
-import projectData from "./components/data/projects.json";
-
 class App extends Component {
 
     render() {

@@ -1,8 +1,7 @@
 import React from "react";
-import { Box } from "rebass"
 import {useParams} from "react-router-dom";
 
-import projectData from "../data/projects.json";
+import projectData from "../data/projectsMusic.json";
 
 function getval(id) {
     let obj = projectData.filter(item => item.id === id);
@@ -61,11 +60,16 @@ const PortfolioItem = () => {
                         {x.map((o) => {
                             if (typeof o.source != 'undefined') {
                                 if (typeof o.source.bandcamp != 'undefined') {
-                                    return <iframe className={"media_bandcamp"} src={o.source.bandcamp} seamless/>
+                                    return <iframe className={"media_bandcamp"} src={o.source.bandcamp}
+                                                   seamless
+                                                   title={"Bandcamp iFrame"}/>
                                 } else {
                                     if (typeof o.source.soundcloud != 'undefined') {
-                                        return <iframe width="100%" height="300" scrolling="no" frameBorder="no"
+                                        return <iframe width="100%" height="300"
+                                                       scrolling="no"
+                                                       frameBorder="no"
                                                        allow="autoplay"
+                                                       title={"Soundcloud iFrame"}
                                                        src={o.source.soundcloud}/>
                                     }
                                 }
@@ -77,7 +81,7 @@ const PortfolioItem = () => {
                         {x.map((o) => {
                             if (typeof o.img != 'undefined') {
                                 const _path = "/media/img/" + x.map(x => o.img.src)
-                                return <img src= {_path} className="filmStill" />
+                                return <img src= {_path} className="filmStill" title={"filmstill"} alt={"filmstill of the movie"}/>
                             }
                         })}
                     </div>

@@ -1,20 +1,19 @@
 import React from 'react';
-import { Box } from "rebass";
 
 const Footer = () => {
     return (
         <div className="footer margin">
             <div className="footer-inner-logo"e>
-                <a href="https://ovnd.bandcamp.com/"><img className="socialButton" src="media/logos/bandcamp.jpg"></img></a>
+                <a href="https://ovnd.bandcamp.com/"><img className="socialButton" src="media/logos/bandcamp.jpg" alt={"logo of Bandcamp"}></img></a>
             </div>
             <div className="footer-inner-logo">
-                <a href="https://www.instagram.com/ovnd_music/"><img className="socialButton" src="media/logos/instagram.png"></img></a>
+                <a href="https://www.instagram.com/ovnd_music/"><img className="socialButton" src="media/logos/instagram.png" alt={"logo of Instagram"}></img></a>
             </div>
             <div className="footer-inner-logo">
-                <a href="https://www.facebook.com/ovnd.music/"><img className="socialButton" src="media/logos/facebook.jpg"></img></a>
+                <a href="https://www.facebook.com/ovnd.music/"><img className="socialButton" src="media/logos/facebook.jpg" alt={"logo of Facebook"}></img></a>
             </div>
             <div className="footer-inner-logo">
-                <a href="https://soundcloud.com/siegfreud"><img className="socialButton" src="media/logos/soundcloud.png"></img></a>
+                <a href="https://soundcloud.com/siegfreud"><img className="socialButton" src="media/logos/soundcloud.png" alt={"logo of Soundcloud"}></img></a>
             </div>
             <div className="footer-inner filler"></div>
             <div className="footer-inner">

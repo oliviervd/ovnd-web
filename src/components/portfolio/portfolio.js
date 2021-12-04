@@ -1,5 +1,5 @@
 import React from "react";
-import projectData from "../data/projects.json";
+import projectData from "../data/projectsMusic.json";
 import { Box } from "rebass"
 
 const Portfolio = () => {
@@ -10,7 +10,6 @@ const Portfolio = () => {
             {projectData.map((postDetail, index)=>{
 
                 //fetch img from db and construct path.
-                const imgSrc = "/media/img/" + postDetail.img;
                 const _href = "/music/"+ postDetail.id;
                 return (
                     <div className={"wrap"}>

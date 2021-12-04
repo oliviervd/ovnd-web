@@ -25,7 +25,7 @@ const about = () => {
                     </p>
                 </Box>
                 <Box flex={2}>
-                    <img className="bioPicture" src="/media/img/bio_pic.jpeg"></img>
+                    <img className="bioPicture" src="/media/img/bio_pic.jpeg" alt={"Olivier Van D'huynslager"}></img>
                 </Box>
             </div>
             <Footer/>
