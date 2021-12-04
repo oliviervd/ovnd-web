@@ -3,6 +3,11 @@
     "title": "Parade (post-production)",
     "year": "2022",
     "type": "documentary",
+    "description": "an artistic documentary on the work of Belgian sculptor Koenraad Tinel",
+    "img": {
+      "src": "2022_Parade.png",
+      "alt": "film still of Parade"
+    },
     "production": {
       "director": "Sam Debaecke",
       "writer": "Sam Debaecke"
