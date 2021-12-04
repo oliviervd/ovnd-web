@@ -11,6 +11,9 @@
 # production
 /build
 
+#local testing 🦞
+/src/pages/example.js
+
 # misc
 .DS_Store
 .env.local
