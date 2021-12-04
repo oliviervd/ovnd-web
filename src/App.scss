@@ -126,6 +126,10 @@ a {
 .scroll_text {
   display: flex;
   padding: 0 30px;
+  @media screen and (max-width: 768px){
+    font-size: 100px;
+    line-height: 50px;
+  }
   font-size: 170px;
   line-height: 100px;
   background: linear-gradient(100deg, #D32F2F 0%, #FFCDD2 25%);
