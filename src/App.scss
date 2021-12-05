@@ -39,6 +39,11 @@ h1, h2, h3, h5 {
   font-family: "BluuNext-Bold", sans-serif;
 }
 
+.gridTitle {
+  font-family: "BluuNext-Bold", sans-serif;
+  font-size: 30px;
+}
+
 h1.uppercase {
   text-transform: uppercase;
 }
@@ -62,17 +67,17 @@ a {
   font-style: italic;
 }
 
-.Bio {
+.aboutMob {
   display: flex;
-  margin-left: 200px;
-  justify-content: space-between;
-  width: 640px;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.bioPicture {
-  display: flex;
-  margin-left: 200px;
-  width: 640px;
+.Bio {
+  padding: 20px;
+}
+
+.aboutPicture {
 }
 
 .center {
@@ -124,6 +129,7 @@ a {
 
 .portfolioImage{
   width: 95vw;
+  padding: 5px;
   @media screen and (min-width: 1500px) {
     width: 70vw;
   }
@@ -254,6 +260,22 @@ a {
 }
 
 /* media */
+
+.box{
+  width:80%;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image{
+  width: 95vw;
+  padding: 5px;
+  @media screen and (min-width: 1500px) {
+    width: 70vw;
+  }
+}
 
 .socialButton {
   width: 50px;
