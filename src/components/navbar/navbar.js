@@ -22,9 +22,8 @@ const Navbar = () => {
         setNavbarOpen(prev => !prev)
     }
     return(
-        <div className="wrap">
+        <div className={"sticky"}>
             <nav>
-
                 <Desktop>
                     <container>
                         <div className="nav_menu">
