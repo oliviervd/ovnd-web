@@ -5,7 +5,7 @@
     "year": "2021 - ...",
     "type": "solo",
     "source": {
-      "bandcamp": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=CD5C5C/minimal=true/transparent=true/"
+      "bandcamp": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/"
     },
     "img": {
       "src": "2021_Helene.jpg",
@@ -44,7 +44,11 @@
       "writer": "Sophie Kurpershoek",
       "cinematography": "Xavier Van D'huynslager",
       "producer": "Sarah Marks"
-    }
+    },
+    "festivals": [{
+      "festival":"international short film festival Leuven",
+      "info": "opening movie"
+    }]
   },
   {
     "id": "2021-dor",
@@ -61,7 +65,11 @@
       "writer": "Jannes Callens",
       "cinematography": "Sven Aerts",
       "producer": "Caralin Bocîrnea"
-    }
+    },
+    "festivals": [{
+      "festival":"BREEDBEELD kortfilmfestival 2021",
+      "info": "nominee"
+    }]
   },
   {
     "id": "2021-adarkhorizonofthought",
@@ -118,7 +126,9 @@
     "title": "P&V",
     "year": "2021",
     "type": "advertisment",
-    "source": "https://www.youtube.com/embed/HRjnmzi4UPU",
+    "source": {
+      "youtube": "https://www.youtube.com/embed/f5-Gnnx8wro?controls=0"
+    },
     "img": {
       "src": "2021_P&V.jpg",
       "alt": "still from the commercial showing an empty crib in a child's room."
@@ -127,6 +137,7 @@
     "production": {
       "director": "Khaël Touag",
       "producer": "Landvogel",
+      "writer": "Khaël Touag",
       "cinematography": "Xavier Van D'huynslager"
     }
   },
@@ -167,7 +178,11 @@
       "director": "Matthee van Holderbeke",
       "writer": "Matthee van Holderbeke",
       "cinematography": "Angela Otten"
-    }
+    },
+    "festivals": [{
+      "festival":"FEST - New Directors / New Films (2021)",
+      "info": "nominee"
+    }]
   },
   {
     "id": "frowst",

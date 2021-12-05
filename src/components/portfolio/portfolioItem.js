@@ -57,6 +57,14 @@ const PortfolioItem = () => {
                                 return <p><strong>cinematography: </strong>{x.map(x => <div>{o.production.cinematography}</div>)}</p>
                             }})}
 
+                        {/* festivals */}
+                        {/* eslint-disable-next-line array-callback-return */}
+                        {x.map((o) => {
+                            if (typeof o.festivals != 'undefined') {
+                                    return <p><strong>festivals and awards: </strong>{x.map(x => <div>{o.festivals[0].festival}</div>)}</p>
+                                }
+                        })}
+
                         <hr/>
                         <br/>
                         {/* media source  */}
@@ -74,7 +82,13 @@ const PortfolioItem = () => {
                                                        allow="autoplay"
                                                        title={"Soundcloud iFrame"}
                                                        src={o.source.soundcloud}/>
-                                    } else {
+                                } else if (typeof o.source.youtube != 'undefined') {
+                                    return <iframe width="560" height="315"
+                                                   src={o.source.youtube}
+                                                   title="YouTube video player" frameBorder="0"
+                                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                   allowFullScreen/>
+                                } else {
                                     if (typeof o.source.vimeo != 'undefined') {
                                         return <iframe
                                             src={o.source.vimeo}
