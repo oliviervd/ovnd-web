@@ -32,7 +32,7 @@ const Portfolio = () => {
                                         <h5 className="subText">{postDetail.year}</h5>
                                     </Box>
                                     <Box flex={1}>
-                                        <h3><a href={_href} target="_self">{postDetail.title}</a></h3>
+                                        <h3><a className={"gridTitle"} href={_href} target="_self">{postDetail.title}</a></h3>
                                     </Box>
                                     <Box flex={1}>
                                         <h5 className="subText">{postDetail.type}</h5>
@@ -48,7 +48,7 @@ const Portfolio = () => {
                                         <h5 className="subText">{postDetail.year}</h5>
                                     </Box>
                                     <Box flex={1}>
-                                        <h3><a href={_href} target="_self">{postDetail.title}</a></h3>
+                                        <h3><a className={"gridTitle"} href={_href} target="_self">{postDetail.title}</a></h3>
                                     </Box>
                                 </div>
                             </div>
