@@ -52,12 +52,15 @@
   },
   {
     "id": "2021-dor",
-    "title": "DOR(Longing)",
+    "title": "DOR (Longing)",
     "year": "2021",
     "type": "narrative content",
+    "source": {
+      "bandcamp": "https://bandcamp.com/EmbeddedPlayer/album=2056238014/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+    },
     "description": "A Romanian guy in his thirties returns to his native country and experiences a psychological crisis. He meets local sheperds and becomes immersed in the rural world that makes him question his life choices. Through his quest, the shepherds also reflect on their lives.",
     "img": {
-      "src": "2021_DOR.jpg",
+      "src": "2021_DOR_3.jpg",
       "alt": "filmstill of DOR showing three shepards and a flock of sheep"
     },
     "production": {
