@@ -117,19 +117,24 @@ a {
 .portfolioInfo {
   display: flex;
   flex-direction: column;
-  border-right: 6px solid #D32F2F;
   width: 95vw;
   margin: auto;
   padding-left: 1vw;
   align-items: flex-start;
   @media screen and (min-width: 1500px) {
     width: 30vw;
+    border-right: 6px solid #D32F2F;
+  }
+  @media screen and (max-width: 986px) {
+    width: 100vw;
   }
 }
 
 .portfolioImage{
   width: 95vw;
   padding: 5px;
+  align-content: center;
+  justify-content: center;
   @media screen and (min-width: 1500px) {
     width: 70vw;
   }
@@ -286,8 +291,12 @@ a {
 
 .filmStill {
   margin: auto;
-  padding: 2.5vw;
+  //padding: 2.5vw;
   width: 45vw;
+  @media screen and (max-width: 986px) {
+    width: 95vw;
+    align-items: center;
+  }
 }
 
 .cinema {
