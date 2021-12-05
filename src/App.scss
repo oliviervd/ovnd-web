@@ -100,6 +100,7 @@ a {
 .portfolioBox {
   display: block;
   position: relative;
+  z-index: -1;
 }
 
 .portfolioItem {
@@ -127,6 +128,8 @@ a {
   }
   @media screen and (max-width: 986px) {
     width: 100vw;
+    text-align: left;
+    //font-size: 100px;
   }
 }
 
@@ -293,6 +296,7 @@ a {
   margin: auto;
   //padding: 2.5vw;
   width: 45vw;
+  display: flex;
   @media screen and (max-width: 986px) {
     width: 95vw;
     align-items: center;
@@ -427,10 +431,17 @@ nav {
     border: 0;
   }
 }
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  height: 0;
+}
 
 //hamburger navbar
 .navBurger {
   position: relative;
+  padding:5px;
 }
 
 .menuNavBurger{
@@ -443,12 +454,12 @@ nav {
   background: #FFCDD2;
   overflow: hidden;
   max-width: 290px;
-  z-index: 9;
 }
 
 .showMenu {
   width: 100%;
   background: #D32F2F;
+  margin-left: 100px;
 }
 
 .menuNavBurger li:first-child {
@@ -462,7 +473,7 @@ button{
 
 @media (max-width: 700px) {
   .showMenu{
-    margin-left: 10vw;
+    margin-left: 20vw;
   }
 
   .navBurger button {
