@@ -67,17 +67,23 @@ const PortfolioItem = () => {
                                     return <iframe className={"media_bandcamp"} src={o.source.bandcamp}
                                                    seamless
                                                    title={"Bandcamp iFrame"}/>
-                                } else {
-                                    if (typeof o.source.soundcloud != 'undefined') {
+                                } else if (typeof o.source.soundcloud != 'undefined') {
                                         return <iframe width="100%" height="300"
                                                        scrolling="no"
                                                        frameBorder="no"
                                                        allow="autoplay"
                                                        title={"Soundcloud iFrame"}
                                                        src={o.source.soundcloud}/>
+                                    } else {
+                                    if (typeof o.source.vimeo != 'undefined') {
+                                        return <iframe
+                                            src={o.source.vimeo}
+                                            width="640" height="480" frameBorder="0"
+                                            allow="autoplay; fullscreen; picture-in-picture" allowFullScreen/>
                                     }
                                 }
-                            }})}
+                                }
+                            })}
 
                     </div>
                     <div className="portfolioImage">
