@@ -30,7 +30,6 @@ const about = () => {
                 <div className={"box"}>
                     <Box flex={2}>
                         <p className="Bio italic"> “My music is often inward looking.. I tend to try and put certain feelings, images or ideas into perspective which eventually resonates in the instruments used for a certain track.”</p>
-                        <br/>
                         <p className="Bio">
                             Olivier (BE) is a musician and digital creative based in Ghent, Belgium. He cultivated his love for music,
                             design and film while studying art history and occasionally assisting on film set as a set dresser. His passion for music
@@ -50,7 +49,6 @@ const about = () => {
                 <div className={"aboutMob"}>
                     <div>
                         <p className="Bio italic"> “My music is often inward looking.. I tend to try and put certain feelings, images or ideas into perspective which eventually resonates in the instruments used for a certain track.”</p>
-                        <br/>
                         <p className="Bio">
                             Olivier (BE) is a musician and digital creative based in Ghent, Belgium. He cultivated his love for music,
                             design and film while studying art history and occasionally assisting on film set as a set dresser. His passion for music
