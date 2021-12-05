@@ -22,7 +22,7 @@ const Navbar = () => {
         setNavbarOpen(prev => !prev)
     }
     return(
-        <div className={"sticky"}>
+        <div className={'sticky'}>
             <nav>
                 <Desktop>
                     <container>
