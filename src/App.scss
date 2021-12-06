@@ -39,6 +39,12 @@ h1, h2, h3, h5 {
   font-family: "BluuNext-Bold", sans-serif;
 }
 
+.footerText{
+  font-family: "CothamSans", sans-serif;
+  color: #212121;
+  font-size: .5rem;
+}
+
 .portfolioHeader{
   color: #212121;
 }
@@ -375,7 +381,6 @@ a {
 
 nav {
   padding: 0.5rem (calc(100vw - 1000px)/2);
-  font-family: "roboto", sans-serif;
 
   container {
     display: flex;
@@ -397,6 +402,7 @@ nav {
     li {
       a {
         padding: 8px;
+        font-family: "CothamSans", sans-serif;
         display:block;
         letter-spacing: .2rem;
         font-size: .9rem;
