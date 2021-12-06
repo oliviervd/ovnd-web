@@ -11,11 +11,17 @@ const MainPage = () => {
         </head>
         <body>
         <div className={"ScContainer"}>
-            <Navbar/>
-            <div className="App">
+            <div className="home">
+                <div className={"homeColSide"}>
+                    <a href={"/music"} target={"_self"}><h1 className={"homeLinkOVND"}>MUSIC PRODUCTION</h1></a>
+
+                </div>
                 <div>
-                    <canvas className= {"processingSketch"} id="sketch" data-processing-sources="sketches/home.pde"></canvas>
-                    <br></br>
+                    <h1 className={"homeHeaderOVND"}>OVND</h1>
+                    <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
+                </div>
+                <div className={"homeColSide"}>
+                    <a href={"/projects"} target={"_self"}><h1 className={"homeLinkOVND"}>CREATIVE CODING</h1></a>
                 </div>
             </div>
         </div>
