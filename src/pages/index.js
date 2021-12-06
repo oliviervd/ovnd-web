@@ -11,13 +11,13 @@ const MainPage = () => {
         </head>
         <body>
         <div className={"ScContainer"}>
-            <div className="home">
+            <div className="flexMain">
                 <div className={"homeColSide"}>
                     <a href={"/music"} target={"_self"}><h1 className={"homeLinkOVND"}>MUSIC PRODUCTION</h1></a>
 
                 </div>
                 <div>
-                    <h1 className={"homeHeaderOVND"}>OVND</h1>
+                    <h1 className={"centerHeader"}>OVND</h1>
                     <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
                 </div>
                 <div className={"homeColSide"}>

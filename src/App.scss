@@ -96,17 +96,22 @@ a {
   display: block
 }
 
-/* HOME */
-.home{
+.flexMain{
   display: flex;
   align-items: stretch;
   flex-direction: row;
 }
 
-.homeHeaderOVND{
+.centerHeader{
   text-align: center;
   padding-bottom: 5vw;
 }
+
+.centerText {
+  text-align: center;
+}
+
+/* HOME */
 
 .homeLinkOVND{
   transition: color 150ms ease-out;
@@ -125,6 +130,8 @@ a {
   justify-content: center;
   margin: auto;
 }
+
+/* creative coding portfolio */
 
 /* portfolio */
 .portfolio {

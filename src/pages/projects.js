@@ -13,8 +13,18 @@ const ProjectSum = () => {
         <body>
         <div className={"ScContainer"}>
             <Navbar/>
-            <div className="App">
-                <ReactPlayer className="cinema" url='https://www.dropbox.com/s/8avv08dvlw7sd8n/0001-0686.mp4?dl=0' playing={true} loop={true} width="900px" height="630px" />
+            <h1 className={"centerHeader"}>A CREATIVE CODING PORTFOLIO</h1>
+            <p className={"centerText"}>This page will serve as a future landing page for creative coding endeavours</p>
+            <div className="flexMain">
+                <div className={"homeColSide"}>
+                    <p>X</p>
+                </div>
+                <div>
+                    <ReactPlayer className="cinema" url='https://www.dropbox.com/s/8avv08dvlw7sd8n/0001-0686.mp4?dl=0' playing={true} loop={true} width="900px" height="630px" />
+                </div>
+                <div className={"homeColSide"}>
+                    <p>X</p>
+                </div>
                 <br/>
             </div>
         </div>
