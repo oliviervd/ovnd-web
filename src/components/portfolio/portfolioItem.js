@@ -44,11 +44,11 @@ const PortfolioItem = () => {
                         </div>
                         <div className="portfolioItem">
                             <div className="portfolioInfo">
-                                <div className={"portfolioLine"}>
-                                    <p>{x.map(x => <div>{x.year}</div>)}</p>
-                                </div>
                                 <div>
                                     <h1 className={"portfolioHeader"}>{x.map(x => <div>{x.title}</div>)}</h1>
+                                </div>
+                                <div className={"portfolioLine"}>
+                                    <p>{x.map(x => <div>{x.year}</div>)}</p>
                                 </div>
                                 <p>{x.map(x => <div>{x.description}</div>)}</p>
 
@@ -134,16 +134,6 @@ const PortfolioItem = () => {
                 <div>
                     <div className="portfolioBox">
                         <div className={"gradLine"}></div>
-                        {/*<div className="portfolioImage">*/}
-                        {/*    /!* image  *!/*/}
-                        {/*    /!* eslint-disable-next-line array-callback-return *!/*/}
-                        {/*    {x.map((o) => {*/}
-                        {/*        if (typeof o.img != 'undefined') {*/}
-                        {/*            const _path = "/media/img/" + x.map(x => o.img.src)*/}
-                        {/*            return <img src= {_path} className="filmStill" title={"filmstill"} alt={"filmstill of the movie"}/>*/}
-                        {/*        }*/}
-                        {/*    })}*/}
-                        {/*</div>*/}
                         <div id="scroll-container">
                             <div className="title_scroller">
                                 <h1 className="scroll_text uppercase">{x.map(x => <div>{x.title}</div>)}</h1>
