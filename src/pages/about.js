@@ -39,7 +39,7 @@ const about = () => {
                         </p>
                     </Box>
                     <Box flex={2}>
-                        <img className="aboutPicture" src="/media/img/bio_pic.jpeg" alt={"Olivier Van D'huynslager"}></img>
+                        <img className="aboutPicture" src="/media/img/bio_pic.jpg" alt={"Olivier Van D'huynslager"}></img>
                     </Box>
                 </div>
                 <Footer/>
@@ -58,7 +58,7 @@ const about = () => {
                         </p>
                     </div>
                     <div className={"box"}>
-                        <img className={"image"} src="/media/img/bio_pic.jpeg" alt={"Olivier Van D'huynslager"}></img>
+                        <img className={"image"} src="/media/img/bio_pic.jpg" alt={"Olivier Van D'huynslager"}></img>
                     </div>
                 </div>
             </Mobile>
