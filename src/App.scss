@@ -96,6 +96,36 @@ a {
   display: block
 }
 
+/* HOME */
+.home{
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.homeHeaderOVND{
+  text-align: center;
+  padding-bottom: 5vw;
+}
+
+.homeLinkOVND{
+  transition: color 150ms ease-out;
+  &:hover {
+    color: #FFCDD2;
+  }
+}
+
+.homeColCenter {
+  flex-grow: 3;;
+}
+
+.homeColSide {
+  flex-grow: 1;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
 /* portfolio */
 .portfolio {
   display: flex;
