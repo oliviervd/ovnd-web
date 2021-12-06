@@ -2,10 +2,18 @@ import React from "react";
 import projectData from "../data/projectsMusic.json";
 import { Box } from "rebass"
 import { useMediaQuery } from "react-responsive";
-import Footer from "../footer/footer";
+import {useParams} from "react-router-dom";
 
+function getval(id) {
+    let obj = projectData.filter(item => item.id === id);
+    return obj;
+}
 
 const Portfolio = () => {
+
+    //database
+    const { id } = useParams();
+    const x = getval(id)
 
     //media-query
     const Desktop = ({ children }) => {
@@ -23,6 +31,7 @@ const Portfolio = () => {
 
                 //fetch img from db and construct path.
                 const _href = "/music/"+ postDetail.id;
+                const _path = "/media/img/" + postDetail.img.src;
                 return (
                     <container>
                         <Desktop>
@@ -36,6 +45,11 @@ const Portfolio = () => {
                                     </Box>
                                     <Box flex={1}>
                                         <h5 className="subText">{postDetail.type}</h5>
+                                    </Box>
+                                    <Box flex={1}>
+                                        <div className="portfolioImage">
+                                            <img className="filmStillLine" src={_path}></img>
+                                        </div>
                                     </Box>
                                 </div>
                             </div>

@@ -39,6 +39,10 @@ h1, h2, h3, h5 {
   font-family: "BluuNext-Bold", sans-serif;
 }
 
+.portfolioHeader{
+  color: #212121;
+}
+
 .gridTitle {
   font-family: "BluuNext-Bold", sans-serif;
   font-size: 30px;
@@ -208,6 +212,7 @@ a {
   flex-direction: row;
   border-top: solid #BDBDBD;
   border-top-width: thin;
+  height:5vw;
   border-top-style: dot-dash;
   @media screen and (max-width: 769px) {
     flex-direction: row;
@@ -301,6 +306,15 @@ a {
     width: 95vw;
     align-items: center;
   }
+}
+
+.filmStillLine {
+  margin: auto;
+  //padding: 2.5vw;
+  width: 8vw;
+  margin-top: 1vw;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .cinema {
