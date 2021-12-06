@@ -218,10 +218,12 @@ a {
   flex-direction: row;
   border-top: solid #BDBDBD;
   border-top-width: thin;
-  height:5vw;
   border-top-style: dot-dash;
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 768px) {
     flex-direction: row;
+  }
+  @media screen and (min-width: 768px){
+    height:5vw;
   }
 }
 
