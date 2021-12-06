@@ -29,6 +29,7 @@ const about = () => {
                 <Navbar/>
                 <div className={"box"}>
                     <Box flex={2}>
+                        <h1>ABOUT ME</h1>
                         <p className="Bio italic"> “My music is often inward looking.. I tend to try and put certain feelings, images or ideas into perspective which eventually resonates in the instruments used for a certain track.”</p>
                         <p className="Bio">
                             Olivier (BE) is a musician and digital creative based in Ghent, Belgium. He cultivated his love for music,
