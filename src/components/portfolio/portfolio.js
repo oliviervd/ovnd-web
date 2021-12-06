@@ -31,7 +31,7 @@ const Portfolio = () => {
 
                 //fetch img from db and construct path.
                 const _href = "/music/"+ postDetail.id;
-                const _path = "/media/img/" + postDetail.img.src;
+                const _path = "/media/thumb/" + postDetail.img.src;
                 return (
                     <container>
                         <Desktop>
