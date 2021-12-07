@@ -30,13 +30,18 @@ const about = () => {
                 <div className={"box"}>
                     <Box flex={2}>
                         <h1>ABOUT ME</h1>
-                        <p className="Bio italic"> “My music is often inward looking.. I tend to try and put certain feelings, images or ideas into perspective which eventually resonates in the instruments used for a certain track.”</p>
-                        <p className="Bio">
+                        <p> “My music is often inward looking.. I tend to try and put certain feelings, images or ideas into perspective which eventually resonates in the instruments used for a certain track.”</p>
+                        <p>
                             Olivier (BE) is a musician and digital creative based in Ghent, Belgium. He cultivated his love for music,
                             design and film while studying art history and occasionally assisting on film set as a set dresser. His passion for music
                             matured while playing in, and producing for several bands. During the day he works at the design museum on digital culture.
                             Composing for both film and advertisement, Olivier has established himself as a freelance composer.
                         </p>
+                        <h1>GET IN TOUCH</h1>
+                        <div>
+                            <p>For further information on the projects or media requests,<br/>inquiries for collaboration or just
+                                saying hello, <br/>please send me an email to<a href={"mailto: ovnd.music@gmail.com"}>ovnd.music@gmail.com</a></p>
+                        </div>
                     </Box>
                     <Box flex={2}>
                         <img className="aboutPicture" src="/media/img/bio_pic.jpg" alt={"Olivier Van D'huynslager"}></img>
@@ -48,17 +53,11 @@ const about = () => {
             <Mobile>
                 <Navbar/>
                 <div className={"aboutMob"}>
+
+                    <h1>CONTACT ME</h1>
                     <div>
-                        <p className="Bio italic"> “My music is often inward looking.. I tend to try and put certain feelings, images or ideas into perspective which eventually resonates in the instruments used for a certain track.”</p>
-                        <p className="Bio">
-                            Olivier (BE) is a musician and digital creative based in Ghent, Belgium. He cultivated his love for music,
-                            design and film while studying art history and occasionally assisting on film set as a set dresser. His passion for music
-                            matured while playing in, and producing for several bands. During the day he works at the design museum on digital culture.
-                            Composing for both film and advertisement, Olivier has established himself as a freelance composer.
-                        </p>
-                    </div>
-                    <div className={"box"}>
-                        <img className={"image"} src="/media/img/bio_pic.jpg" alt={"Olivier Van D'huynslager"}></img>
+                        <p>For further information on the projects or media requests,<br/>inquiries for collaboration or just
+                            saying hello, <br/>please send me an email to<a href={"mailto: ovnd.music@gmail.com"}>ovnd.music@gmail.com</a></p>
                     </div>
                 </div>
             </Mobile>
