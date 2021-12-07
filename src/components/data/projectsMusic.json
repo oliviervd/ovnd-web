@@ -68,11 +68,7 @@
       "writer": "Jannes Callens",
       "cinematography": "Sven Aerts",
       "producer": "Caralin Bocîrnea"
-    },
-    "festivals": [{
-      "festival":"BREEDBEELD kortfilmfestival 2021",
-      "info": "nominee"
-    }]
+    }
   },
   {
     "id": "2021-adarkhorizonofthought",
@@ -91,7 +87,11 @@
       "director": "Jannes Callens",
       "writer": "Jannes Callens",
       "cinematography": "Sven Aerts"
-    }
+    },
+    "festivals": [{
+    "festival":"BREEDBEELD kortfilmfestival 2021",
+    "info": "nominee"
+  }]
   },
   {
     "id": "2021-doubleunbound",
