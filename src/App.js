@@ -7,7 +7,6 @@ import MainPage from "./pages/index";
 import ProjectSum from "./pages/projects";
 import MusicMain from "./pages/musicMain";
 import about from "./pages/about";
-import contact from "./pages/contact";
 import project from "./pages/project";
 
 class App extends Component {
@@ -20,7 +19,6 @@ class App extends Component {
                     <Route exact path="/projects" component={ProjectSum} self={true}/>
                     <Route exact path="/music" component={MusicMain} self={true}/>
                     <Route exact path="/about" component={about} self={true}/>
-                    <Route exact path="/contact" component={contact} self={true}/>
                     <Route exact path="/music/:id" component={project} self={true}/>
                 </Router>
             </div>
