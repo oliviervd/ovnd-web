@@ -45,11 +45,16 @@ const MainPage = () => {
                     <h1 className={"centerHeader"}>OVND</h1>
                     <div className={"portfolioLine"}></div>
                     <br/>
-                    <h1 className={"centerHeader"}>♅</h1>
-                    <br/>
-                    <a className={"centerText"} href={"/music"} target={"_self"}><h1 className={"homeLinkOVND"}>MUSIC PRODUCTION</h1></a>
-                    <h1 className={"centerHeader"}>♅</h1>
-                    <a className={"centerText"} href={"/projects"} target={"_self"}><h1 className={"homeLinkOVND"}>CREATIVE CODING</h1></a>
+                    <div>
+                        <h1 className={"centerHeader"}>♅</h1>
+                        <br/>
+                        <a className={"centerText"} href={"/music"} target={"_self"}><h1 className={"homeLinkOVND"}>MUSIC PRODUCTION</h1></a>
+                        <h1 className={"centerHeader"}>♅</h1>
+                        <a className={"centerText"} href={"/projects"} target={"_self"}><h1 className={"homeLinkOVND"}>CREATIVE CODING</h1></a>
+                    </div>
+                    <div>
+                        <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
+                    </div>
                 </div>
             </Mobile>
         </container>
