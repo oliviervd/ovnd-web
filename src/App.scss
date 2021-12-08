@@ -114,7 +114,6 @@ span {
 
 .flexMain{
   display: flex;
-  align-items: stretch;
   flex-direction: row;
 }
 
@@ -330,6 +329,38 @@ span {
 }
 
 /* media */
+/* SLIDER */
+.slider-container {
+  overflow: hidden;
+}
+.slider{
+  position: relative;
+  animation: 30s animate linear infinite;
+  width: 500%
+}
+
+@keyframes animate {
+  0%{
+    left: 0%;
+  }
+  30%{
+    left: -100%;
+  }
+  60%{
+    left: -200%;
+  }
+  90%{
+    left: -300%;
+  }
+}
+
+.imgSlider {
+  width: 20%;
+  float: left;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+}
 
 .box{
   width:80%;

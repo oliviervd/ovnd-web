@@ -23,7 +23,7 @@ const ProjectSum = () => {
         </head>
         <body>
         <Desktop>
-            <div className={"ScContainer"}>
+            <div>
                 <Navbar/>
                 <h1 className={"centerHeader"}>A CREATIVE CODING PORTFOLIO</h1>
                 <p className={"centerText"}>This page will serve as a future landing page for creative coding endeavours</p>
@@ -44,7 +44,7 @@ const ProjectSum = () => {
         <Mobile>
             <Navbar/>
             <h1 className={"centerHeader"}>A CREATIVE CODING PORTFOLIO</h1>
-            <div className={"portfolioLine"}>.</div>
+            <div className={"portfolioLine"}></div>
             <p className={"centerText"}>This page will serve as a future landing page for creative coding endeavours</p>
             <div className={"homeColSide"}>
                 <h1>♅</h1>

@@ -25,7 +25,7 @@ const MainPage = () => {
         <body>
         <container>
             <Desktop>
-                <div className={"ScContainer"}>
+                <div>
                     <div className="flexMain">
                         <div className={"homeColSide"}>
                             <a href={"/music"} target={"_self"}><h1 className={"hoverLinkEffect"}>MUSIC PRODUCTION</h1></a>

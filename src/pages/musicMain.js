@@ -11,7 +11,7 @@ const MusicMain = () => {
             <title>OVND - music portfolio</title>
         </head>
         <body>
-        <div className={"ScContainer"}>
+        <div>
             <Navbar/>
             <Portfolio/>
         </div>
