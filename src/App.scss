@@ -74,7 +74,7 @@ a {
 }
 
 span {
-  text-shadow: -0.06em 0 red,  0.06em 0 cyan; /* This creates the 3D effect, pretty easy, eh? */
+  text-shadow: -0.06em 0 #FF0000,  0.06em 0 cyan; /* This creates the 3D effect, pretty easy, eh? */
   letter-spacing: 0.08em; /* make sure the letters don't overlap */
 }
 
@@ -209,6 +209,7 @@ span {
 .scroll_text {
   display: flex;
   padding: 0 30px;
+  color: #FF0000;
   @media screen and (max-width: 768px){
     font-size: 100px;
     line-height: 50px;
