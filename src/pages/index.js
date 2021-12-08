@@ -28,14 +28,18 @@ const MainPage = () => {
                 <div className={"ScContainer"}>
                     <div className="flexMain">
                         <div className={"homeColSide"}>
-                            <a href={"/music"} target={"_self"}><h1 className={"homeLinkOVND"}>MUSIC PRODUCTION</h1></a>
+                            <a href={"/music"} target={"_self"}><h1 className={"hoverLinkEffect"}>MUSIC PRODUCTION</h1></a>
                         </div>
                         <div>
-                            <h1 className={"centerHeader"}>OVND</h1>
+                            <a href={"/"} target={"_self"}>
+                            <h1 className={"centerHeader big hoverLinkEffect"}>
+                                <span>OVND</span>
+                            </h1>
+                            </a>
                             <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
                         </div>
                         <div className={"homeColSide"}>
-                            <a href={"/projects"} target={"_self"}><h1 className={"homeLinkOVND"}>CREATIVE CODING</h1></a>
+                            <a href={"/projects"} target={"_self"}><h1 className={"hoverLinkEffect"}>CREATIVE CODING</h1></a>
                         </div>
                     </div>
                 </div>
