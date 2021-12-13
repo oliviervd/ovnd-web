@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import projectData from "../data/projectsMusic.json";
 import { Box } from "rebass"
 import { useMediaQuery } from "react-responsive";
@@ -8,6 +8,7 @@ function getval(id) {
     let obj = projectData.filter(item => item.id === id);
     return obj;
 }
+
 
 const Portfolio = () => {
 
@@ -25,6 +26,12 @@ const Portfolio = () => {
         return isMobile? children: null
     }
 
+    //colorflip
+    const [color, setColor] = useState(false);
+    const colorToggle = () => {
+        setColor(prev => !prev);
+    }
+
     return (
         <div>
             {projectData.map((postDetail, index)=>{
@@ -36,20 +43,25 @@ const Portfolio = () => {
                     <container>
                         <Desktop>
                             <div className={"wrap"}>
-                                <div className="portfolioLine">
+                                <div id="LineEL" className="portfolioLine">
                                     <Box flex={0.5}>
                                         <h5 className="subText">{postDetail.year}</h5>
                                     </Box>
                                     <Box flex={1}>
-                                        <h3><a className={"gridTitle"} href={_href} target="_self">{postDetail.title}</a></h3>
+                                        <h3>
+                                            <a className={"gridTitle"} href={_href} target="_self" onMouseOver={colorToggle}>
+                                                {postDetail.title}
+                                            </a>
+                                        </h3>
                                     </Box>
                                     <Box flex={1}>
                                         <h5 className="subText">{postDetail.type}</h5>
                                     </Box>
                                     <Box flex={1}>
-                                        <div className="portfolioImage">
-                                            <img className="filmStillLine" src={_path}></img>
-                                        </div>
+                                            <div className="portfolioImage">
+                                                <img id={"thumbnailImage"} className="filmStillLine" src={_path}/>
+                                            </div>
+
                                     </Box>
                                 </div>
                             </div>
