@@ -206,7 +206,7 @@ const PortfolioItem = () => {
                                                            title={"Soundcloud iFrame"}
                                                            src={o.source.soundcloud}/>
                                         } else if (typeof o.source.youtube != 'undefined') {
-                                            return <iframe width="560" height="315"
+                                            return <iframe width="450" height="315"
                                                            src={o.source.youtube}
                                                            title="YouTube video player" frameBorder="0"
                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -215,7 +215,7 @@ const PortfolioItem = () => {
                                             if (typeof o.source.vimeo != 'undefined') {
                                                 return <iframe
                                                     src={o.source.vimeo}
-                                                    width="640" height="480" frameBorder="0"
+                                                    width="450" height="350" frameBorder="0"
                                                     allow="autoplay; fullscreen; picture-in-picture" allowFullScreen/>
                                             }
                                         }
