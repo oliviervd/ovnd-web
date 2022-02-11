@@ -185,7 +185,10 @@ span {
   position: relative;
   z-index: 0;
   border: 6px solid #D32F2F;
-  margin: 8px
+  margin: 8px;
+  @media screen and (max-width: 768px){
+    padding-top: 10vh;
+  }
 }
 
 .portfolioItem {
@@ -505,7 +508,7 @@ nav {
   position: fixed;
   width: 100%;
   @media screen and (max-width: 768px) {
-    background: #FFFFFF;
+    background: none;
   }
 
   container {
@@ -538,7 +541,7 @@ nav {
         transition: color 150ms ease-out;
 
         &:hover {
-          color: grey;
+          color: white;
         }
       }
     }
