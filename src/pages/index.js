@@ -37,7 +37,7 @@ const MainPage = () => {
                                     OLIVIER VAN D'HUYNSLAGER IS A MUSICIAN AND DIGITAL CREATIVE BASED IN GHENT
                                 </p>
                             </a>
-                            <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
+                            <canvas id="sketch" data-processing-sources="sketches/home.pde" className={"center"}></canvas>
                         </div>
                         <div className={"homeColSide"}>
                             <a href={"/projects"} target={"_self"}><h1 className={"hoverLinkEffect"}>CREATIVE CODING</h1></a>
