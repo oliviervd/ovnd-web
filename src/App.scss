@@ -4,6 +4,8 @@
 ██    ██ ██    ██ ██ ██  ██ ██   ██
 ██    ██  ██  ██  ██  ██ ██ ██   ██
  ██████    ████   ██   ████ ██████
+
+A CREATIVE WEB PORTFOLIO.
 */
 
 
@@ -24,6 +26,11 @@
 @font-face {
   font-family: "CothamSans";
   src: local("CothamSans"), url(font/CothamSans.otf);
+}
+
+@font-face {
+  font-family: "Karrik-Regular";
+  src: local("Karrik-Regular"), url(font/Karrik-Regular.ttf);
 }
 
 .App {
@@ -410,8 +417,12 @@ span {
 .filmStillLine {
   margin: auto;
   //padding: 2.5vw;
-  width: 8vw;
+  width: 5vw;
   margin-top: 1vw;
+  -webkit-filter: grayscale(1);
+}
+.filmStillLine:hover {
+  -webkit-filter: grayscale(0);
 }
 
 .grey{
