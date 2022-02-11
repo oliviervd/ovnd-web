@@ -13,9 +13,11 @@ const MusicMain = () => {
         <body>
         <div>
             <Navbar/>
-            <Portfolio/>
+            <div className={"portfolioGridMain"}>
+                <Portfolio/>
+            </div>
         </div>
-        <Footer></Footer>
+        <br/>
         </body>
         </html>
     )
