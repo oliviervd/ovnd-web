@@ -14,7 +14,6 @@ const Portfolio = () => {
 
     //database
     const { id } = useParams();
-    const x = getval(id)
 
     //media-query
     const Desktop = ({ children }) => {
@@ -49,7 +48,7 @@ const Portfolio = () => {
                                     </Box>
                                     <Box flex={1}>
                                         <h3>
-                                            <a className={"gridTitle"} href={_href} target="_self" onMouseOver={colorToggle}>
+                                            <a className={"gridTitle"} href={_href} target="_self">
                                                 {postDetail.title}
                                             </a>
                                         </h3>
