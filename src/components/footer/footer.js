@@ -17,11 +17,11 @@ const Footer = () => {
             </div>
             <div className="footer-inner filler"></div>
             <div className="footer-inner">
-                <p className="margin-small-10"><em> ** Legal Note. This website and its content is copyright of Olivier Van D'huynslager.
-                    Any distribution or reproduction of part or all of the contents in any form is prohibited. You may not,
-                    except with our written permission, distribute or commercialy exploit the content. Nor may you transit it
-                    or store it in any other website or other form of electronic retrieval system without the prior written
-                    permission of Olivier Van D'huynslager.</em></p>
+                {/*<p className="margin-small-10"><em> ** Legal Note. This website and its content is copyright of Olivier Van D'huynslager.*/}
+                {/*    Any distribution or reproduction of part or all of the contents in any form is prohibited. You may not,*/}
+                {/*    except with our written permission, distribute or commercialy exploit the content. Nor may you transit it*/}
+                {/*    or store it in any other website or other form of electronic retrieval system without the prior written*/}
+                {/*    permission of Olivier Van D'huynslager.</em></p>*/}
             </div>
         </div>
     )

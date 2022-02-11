@@ -51,8 +51,13 @@ p, a {
 }
 
 h1, h2, h3, h5 {
-  color:  #F44336;
+  color:   #F44336;
   font-family: "BluuNext-Bold", sans-serif;
+}
+
+.X{
+  padding: 10vh;
+  align-items: center;
 }
 
 .footerText{
@@ -160,12 +165,17 @@ span {
 /* creative coding portfolio */
 
 /* portfolio */
+.portfolioGridMain {
+  padding-top: 5vh;
+}
+
+
 .portfolio {
   display: flex;
   gap: 1vw;
   flex-direction: column-reverse;
   /* --- MOBILE --- */
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 768px) {
     flex-direction: row;
   }
 }
@@ -274,7 +284,7 @@ span {
   @media screen and (max-width: 1600px) {
     width: 40vw;
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 768px) {
     width: 90vw;
   }
 }
@@ -290,6 +300,7 @@ span {
   }
   @media screen and (min-width: 768px){
     height:5vw;
+    width: 70vw;
   }
 }
 
@@ -328,6 +339,8 @@ span {
 .footer{
   display: flex;
   flex-direction: row;
+  bottom: 0;
+  position: fixed;
   @media screen and (max-width: 786px) {
     display: none;
   }
@@ -339,7 +352,6 @@ span {
 
 .footer-inner-logo {
   margin: 0.5em;
-  align-items: end;
 }
 
 .filler {
@@ -408,7 +420,7 @@ span {
   //padding: 2.5vw;
   width: 45vw;
   display: flex;
-  @media screen and (max-width: 986px) {
+  @media screen and (max-width: 768px) {
     width: 95vw;
     align-items: center;
   }
@@ -488,6 +500,13 @@ span {
 
 nav {
   padding: 0.5rem (calc(100vw - 1000px)/2);
+  background: #F44336;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    background: #FFFFFF;
+  }
 
   container {
     display: flex;
@@ -599,7 +618,7 @@ button{
   background: #FFFFFF;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .showMenu{
     margin-left: 20vw;
   }
