@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "../components/navbar/navbar";
-import {useParams} from "react-router-dom";
 import {useMediaQuery} from "react-responsive";
 
     //responsive design
@@ -35,6 +33,9 @@ const MainPage = () => {
                             <h1 className={"centerHeader big hoverLinkEffect"}>
                                 <span>OVND</span>
                             </h1>
+                                <p>
+                                    OLIVIER VAN D'HUYNSLAGER IS A MUSICIAN AND DIGITAL CREATIVE BASED IN GHENT
+                                </p>
                             </a>
                             <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
                         </div>
@@ -57,7 +58,7 @@ const MainPage = () => {
                         <a className={"centerText"} href={"/projects"} target={"_self"}><h1 className={"homeLinkOVND"}>CREATIVE CODING</h1></a>
                     </div>
                     <div>
-                        <canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>
+                        {/*<canvas id="sketch" data-processing-sources="sketches/home.pde"></canvas>*/}
                     </div>
                 </div>
             </Mobile>
