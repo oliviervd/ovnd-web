@@ -25,6 +25,8 @@ const ProjectSum = () => {
         <Desktop>
             <div>
                 <Navbar/>
+            </div>
+            <div className={"X"}>
                 <h1 className={"centerHeader"}>A CREATIVE CODING PORTFOLIO</h1>
                 <p className={"centerText"}>This page will serve as a future landing page for creative coding endeavours</p>
                 <div className="flexMain">
