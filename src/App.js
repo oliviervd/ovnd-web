@@ -17,7 +17,6 @@ class App extends Component {
                 <Router>
                     <Route exact path="/" component={MainPage} self={true} />
                     <Route exact path="/projects" component={ProjectSum} self={true}/>
-                    <Route exact path="/projects/bruises" component={bruises} self={true}/>
                     <Route exact path="/music" component={MusicMain} self={true}/>
                     <Route exact path="/about" component={about} self={true}/>
                     <Route exact path="/music/:id" component={project} self={true}/>
