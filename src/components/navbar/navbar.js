@@ -44,15 +44,15 @@ const Navbar = () => {
                         <container>
                             <nav className="navBurger">
                                 <button onClick={handleToggle}>{navbarOpen ? (
-                                    <MdClose style={{color: "#FFCDD2", width: "40px", height: "40px"}}/>
+                                    <MdClose style={{color: "#FFCDD2", width: "40px", height: "40px", background: "#D32F2F"}}/>
                                 ) : (
                                     <VscMenu style={{color: "#FFCDD2", width: "40px", height: "40px"}}/>
                                 )}
                                 </button>
-                                <li className={`menuNavBurger${navbarOpen ? " showMenu": ""}`}><a href="/" target="_self">home</a></li>
-                                <li className={`menuNavBurger${navbarOpen ? " showMenu": ""}`}><a href="/projects" target="_self">c_coding</a></li>
-                                <li className={`menuNavBurger${navbarOpen ? " showMenu": ""}`}><a href="/music" target="_self">music</a></li>
-                                <li className={`menuNavBurger${navbarOpen ? " showMenu": ""}`}><a href="/about" target="_self">about</a></li>
+                                    <li className={`menuNavBurger${navbarOpen ? " showMenu": ""}`}><a href="/" target="_self">home</a></li>
+                                    <li className={`menuNavBurger${navbarOpen ? " showMenu": ""}`}><a href="/projects" target="_self">c_coding</a></li>
+                                    <li className={`menuNavBurger${navbarOpen ? " showMenu": ""}`}><a href="/music" target="_self">music</a></li>
+                                    <li className={`menuNavBurger${navbarOpen ? " showMenu": ""}`}><a href="/about" target="_self">about</a></li>
                             </nav>
                         </container>
                         </nav>

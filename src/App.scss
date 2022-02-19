@@ -516,6 +516,7 @@ nav {
   position: fixed;
   width: 100%;
   @media screen and (max-width: 768px) {
+    //height: 100vh;
     background: none;
   }
 
@@ -525,9 +526,14 @@ nav {
     align-items: center;
     margin: 0 auto;
 
+    @media screen and (max-width: 768px) {
+      //height: 100vh;
+      //width: 100vw;
+    }
+
     ul, .nav_menu {
       display: flex;
-      justify-content: space-between;
+      //justify-content: space-between;
       align-items: center;
       list-style: none;
       gap: 46px;
@@ -539,14 +545,21 @@ nav {
     li {
       a {
         padding: 8px;
-        font-family: "CothamSans", sans-serif;
-        display:block;
+        text-align: center;
+        font-family: "BluuNext-Bold", sans-serif;
+        display: box;
+        font-size: 1.5rem;
         letter-spacing: .2rem;
-        font-size: .9rem;
         text-decoration: none;
         text-transform: uppercase;
         color: #212121;
         transition: color 150ms ease-out;
+
+        @media screen and (max-width: 768px) {
+          width: 100vw;
+          font-size: 4rem;
+          font-family: "BluuNext-Bold";
+        }
 
         &:hover {
           color: white;
@@ -567,7 +580,7 @@ nav {
 
 @media (min-width: 768px) {
   .ScContainer {
-    width: 768px;
+    width: 100vw;
     margin: 0 auto;
     border: 0;
   }
@@ -600,6 +613,9 @@ nav {
 .navBurger {
   position: relative;
   padding:5px;
+  height: 100vh;
+  width: 100vw;
+
 }
 
 .menuNavBurger{
@@ -611,27 +627,30 @@ nav {
   width: 0;
   background: #FFCDD2;
   overflow: hidden;
-  max-width: 290px;
 }
 
 .showMenu {
-  width: 100%;
+  width: 100vw;
+  height: 25vh;
   background: #D32F2F;
-  margin-left: 100px;
+  text-align: center;
+  align-content: center;
 }
 
 .menuNavBurger li:first-child {
   margin-top: 7rem;
+  text-align: center;
 }
 
 button{
   border: none;
-  background: #FFFFFF;
+  background: none;
 }
 
 @media (max-width: 768px) {
   .showMenu{
-    margin-left: 20vw;
+    width:100vw;
+
   }
 
   .navBurger button {
@@ -641,4 +660,24 @@ button{
     z-index: 10;
     cursor: pointer;
   }
+}
+
+.parent{
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  flex-direction: column;
+}
+
+.right {
+  flex-direction: column;
+  text-align: right;
+  width: 20vw
+}
+
+.filterBox{
+  margin-top: 2vw;
+  display: flex;
+  text-align: right;
 }
