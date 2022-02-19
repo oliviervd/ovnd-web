@@ -112,7 +112,9 @@
     "title": "Au Revoir Au Printemps",
     "year": "2021",
     "type": "narrative",
-    "source": "https://bandcamp.com/EmbeddedPlayer/track=2319527480/size=large/bgcol=ffffff/linkcol=CD5C5C/tracklist=false/artwork=small/transparent=true/",
+    "source": {
+      "youtube": "https://www.youtube.com/embed/voD4px48vi0?controls=0"
+    },
     "img": {
       "src": "2021_ARAP.jpg",
       "alt": "film still of Au Revoir Au Printemps"
@@ -122,7 +124,11 @@
       "director": "Khaël Touag",
       "writer": "Khaël Touag",
       "cinematography": "Xavier Van D'huynslager"
-    }
+    },
+    "festivals": [{
+      "festival":"Internationaal Filmfestival Oostende",
+      "info": "selectie"
+    }]
   },
   {
     "id": "2021-pv",
