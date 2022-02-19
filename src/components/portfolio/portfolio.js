@@ -1,19 +1,27 @@
-import React, { useState } from "react";
+import React from "react";
 import projectData from "../data/projectsMusic.json";
 import { Box } from "rebass"
 import { useMediaQuery } from "react-responsive";
-import {useParams} from "react-router-dom";
 
-function getval(id) {
-    let obj = projectData.filter(item => item.id === id);
-    return obj;
+//filters
+/*
+function filterByName (value) {
+    if (handleCheck !== undefined) {
+        let filterKeys = ['narrative content', 'documentary'];
+
+        return filterKeys.every(function (key) {
+                return !handleCheck[key] || value[key];
+            }
+        );
+    } else {
+        return value;
+    }
 }
-
+*/
 
 const Portfolio = () => {
 
     //database
-    const { id } = useParams();
 
     //media-query
     const Desktop = ({ children }) => {
@@ -25,62 +33,61 @@ const Portfolio = () => {
         return isMobile? children: null
     }
 
-    //colorflip
-    const [color, setColor] = useState(false);
-    const colorToggle = () => {
-        setColor(prev => !prev);
-    }
-
     return (
-        <div>
-            {projectData.map((postDetail, index)=>{
+        <div className={"parent"}>
+            <div className={"left"}>
+                {projectData.map((postDetail, index)=>{
 
-                //fetch img from db and construct path.
-                const _href = "/music/"+ postDetail.id;
-                const _path = "/media/thumb/" + postDetail.img.src;
-                return (
-                    <container>
-                        <Desktop>
-                            <div className={"wrap"}>
-                                <div id="LineEL" className="portfolioLine">
-                                    <Box flex={0.5}>
-                                        <h5 className="subText">{postDetail.year}</h5>
-                                    </Box>
-                                    <Box flex={1}>
-                                        <h3>
-                                            <a className={"gridTitle"} href={_href} target="_self">
-                                                {postDetail.title}
-                                            </a>
-                                        </h3>
-                                    </Box>
-                                    <Box flex={1}>
-                                        <h5 className="subText">{postDetail.type}</h5>
-                                    </Box>
-                                    <Box flex={1}>
+                    //fetch img from db and construct path.
+                    const _href = "/music/"+ postDetail.id;
+                    const _path = "/media/thumb/" + postDetail.img.src;
+
+                    // filter based on type
+
+
+                    return (
+                        <container>
+                            <Desktop>
+                                <div className={"wrap"}>
+                                    <div id="LineEL" className="portfolioLine">
+                                        <Box flex={0.5}>
+                                            <h5 className="subText">{postDetail.year}</h5>
+                                        </Box>
+                                        <Box flex={1}>
+                                            <h3>
+                                                <a className={"gridTitle"} href={_href} target="_self">
+                                                    {postDetail.title}
+                                                </a>
+                                            </h3>
+                                        </Box>
+                                        <Box flex={1}>
+                                            <h5 className="subText">{postDetail.type}</h5>
+                                        </Box>
+                                        <Box flex={1}>
                                             <div className="portfolioImage">
                                                 <img id={"thumbnailImage"} className="filmStillLine" src={_path}/>
                                             </div>
-
-                                    </Box>
+                                        </Box>
+                                    </div>
                                 </div>
-                            </div>
-                        </Desktop>
+                            </Desktop>
 
-                        <Mobile>
-                            <div className={"wrap"}>
-                                <div className="portfolioLine">
-                                    <Box flex={0.5}>
-                                        <h5 className="subText">{postDetail.year}</h5>
-                                    </Box>
-                                    <Box flex={1}>
-                                        <h3><a className={"gridTitle"} href={_href} target="_self">{postDetail.title}</a></h3>
-                                    </Box>
+                            <Mobile>
+                                <div className={"wrap"}>
+                                    <div className="portfolioLine">
+                                        <Box flex={0.5}>
+                                            <h5 className="subText">{postDetail.year}</h5>
+                                        </Box>
+                                        <Box flex={1}>
+                                            <h3><a className={"gridTitle"} href={_href} target="_self">{postDetail.title}</a></h3>
+                                        </Box>
+                                    </div>
                                 </div>
-                            </div>
-                        </Mobile>
-                    </container>
-                )
-            })}
+                            </Mobile>
+                        </container>
+                    )
+                })}
+            </div>
         </div>
     )
 }
