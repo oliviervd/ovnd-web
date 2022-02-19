@@ -1,7 +1,6 @@
 import React from "react";
 import ReactPlayer from 'react-player'
 import Navbar from "../components/navbar/navbar";
-import Footer from "../components/footer/footer";
 import {useMediaQuery} from "react-responsive";
 
 //media-query
