@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/navbar/navbar";
 import Portfolio from "../components/portfolio/portfolio";
-import Footer from "../components/footer/footer"
 
 const MusicMain = () => {
     return (
@@ -13,7 +12,7 @@ const MusicMain = () => {
         <body>
         <div>
             <Navbar/>
-            <div className={"portfolioGridMain"}>
+            <div className="portfolioBox">
                 <Portfolio/>
             </div>
         </div>
