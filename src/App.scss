@@ -374,7 +374,7 @@ span {
 
 @keyframes animate {
   0%{
-    left: 0%;
+    left: 0;
   }
   30%{
     left: -100%;
@@ -516,7 +516,7 @@ nav {
   position: relative;
   width: 100%;
   @media screen and (max-width: 768px) {
-    height: 0vh;
+    height: 0;
     background: none;
     z-index: -10;
   }
@@ -552,7 +552,7 @@ nav {
         @media screen and (max-width: 768px) {
           width: 100vw;
           font-size: 5rem;
-          font-family: "BluuNext-Bold";
+          font-family: "BluuNext-Bold", sans-serif;
         }
 
         &:hover {
