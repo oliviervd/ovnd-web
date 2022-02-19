@@ -49,25 +49,28 @@ const Portfolio = () => {
                         <container>
                             <Desktop>
                                 <div className={"wrap"}>
-                                    <div id="LineEL" className="portfolioLine">
-                                        <Box flex={0.5}>
-                                            <h5 className="subText">{postDetail.year}</h5>
-                                        </Box>
-                                        <Box flex={1}>
-                                            <h3>
-                                                <a className={"gridTitle"} href={_href} target="_self">
-                                                    {postDetail.title}
-                                                </a>
-                                            </h3>
-                                        </Box>
-                                        <Box flex={1}>
-                                            <h5 className="subText">{postDetail.type}</h5>
-                                        </Box>
-                                        <Box flex={1}>
-                                            <div className="portfolioImage">
-                                                <img id={"thumbnailImage"} className="filmStillLine" src={_path}/>
-                                            </div>
-                                        </Box>
+                                    <div>
+                                        <div className="shape noisy"></div>
+                                        <div id="LineEL" className="portfolioLine">
+                                            <Box flex={0.5}>
+                                                <h5 className="subText">{postDetail.year}</h5>
+                                            </Box>
+                                            <Box flex={1}>
+                                                <h3>
+                                                    <a className={"gridTitle"} href={_href} target="_self">
+                                                        {postDetail.title}
+                                                    </a>
+                                                </h3>
+                                            </Box>
+                                            <Box flex={1}>
+                                                <h5 className="subText">{postDetail.type}</h5>
+                                            </Box>
+                                            <Box flex={1}>
+                                                <div className="portfolioImage">
+                                                    <img id={"thumbnailImage"} className="filmStillLine" src={_path}/>
+                                                </div>
+                                            </Box>
+                                        </div>
                                     </div>
                                 </div>
                             </Desktop>
