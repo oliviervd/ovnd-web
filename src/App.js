@@ -8,7 +8,6 @@ import ProjectSum from "./pages/projects";
 import MusicMain from "./pages/musicMain";
 import about from "./pages/about";
 import project from "./pages/project";
-import bruises from "./projects/bruises"
 
 class App extends Component {
 
