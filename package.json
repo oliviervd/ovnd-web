@@ -7,7 +7,6 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.24.0",
-    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-art": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -51,6 +50,7 @@
   },
   "devDependencies": {
     "react-native-video": "^5.1.1",
-    "react-player": "^2.9.0"
+    "react-player": "^2.9.0",
+    "sass": "^1.49.8"
   }
 }
