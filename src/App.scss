@@ -130,7 +130,7 @@ span {
 .center {
   margin-left: auto;
   margin-right: auto;
-  display: block
+  display: flex
 }
 
 .flexMain{
@@ -512,33 +512,28 @@ span {
 nav {
   padding: 0.5rem (calc(100vw - 1000px)/2);
   background: #F44336;
-  z-index: 1;
-  position: fixed;
+  z-index: 10000;
+  position: relative;
   width: 100%;
   @media screen and (max-width: 768px) {
-    //height: 100vh;
+    height: 0vh;
     background: none;
+    z-index: -10;
   }
 
   container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
-
-    @media screen and (max-width: 768px) {
-      //height: 100vh;
-      //width: 100vw;
-    }
 
     ul, .nav_menu {
       display: flex;
-      //justify-content: space-between;
-      align-items: center;
       list-style: none;
       gap: 46px;
       @media screen and (max-width: 768px) {
         display: none;
+        background: none;
+        z-index: -10;
       }
     }
 
@@ -547,7 +542,6 @@ nav {
         padding: 8px;
         text-align: center;
         font-family: "BluuNext-Bold", sans-serif;
-        display: box;
         font-size: 1.5rem;
         letter-spacing: .2rem;
         text-decoration: none;
@@ -557,7 +551,7 @@ nav {
 
         @media screen and (max-width: 768px) {
           width: 100vw;
-          font-size: 4rem;
+          font-size: 5rem;
           font-family: "BluuNext-Bold";
         }
 
@@ -568,6 +562,52 @@ nav {
     }
   }
 }
+
+//hamburger navbar
+.navBurger {
+  position: absolute;
+}
+
+.menuNavBurger{
+  top: 0;
+  left:0;
+  bottom:0;
+  width: 0;
+  background: #FFCDD2;
+  overflow: hidden;
+  z-index: -10;
+}
+
+.showMenu {
+  width: 100vw;
+  background: #D32F2F;
+  text-align: center;
+  align-content: center;
+}
+
+.menuNavBurger li:first-child {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+button{
+  border: none;
+  background: none;
+}
+
+@media (max-width: 768px) {
+  .showMenu{
+  }
+
+  .navBurger button {
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    z-index: 10;
+    cursor: pointer;
+  }
+}
+
 
 @media (min-width: 375px) {
   .ScContainer {
@@ -609,58 +649,6 @@ nav {
   z-index: 10000;
 }
 
-//hamburger navbar
-.navBurger {
-  position: relative;
-  padding:5px;
-  height: 100vh;
-  width: 100vw;
-
-}
-
-.menuNavBurger{
-  //position: relative;
-  list-style: none;
-  top: 0;
-  left:0;
-  bottom:0;
-  width: 0;
-  background: #FFCDD2;
-  overflow: hidden;
-}
-
-.showMenu {
-  width: 100vw;
-  height: 25vh;
-  background: #D32F2F;
-  text-align: center;
-  align-content: center;
-}
-
-.menuNavBurger li:first-child {
-  margin-top: 7rem;
-  text-align: center;
-}
-
-button{
-  border: none;
-  background: none;
-}
-
-@media (max-width: 768px) {
-  .showMenu{
-    width:100vw;
-
-  }
-
-  .navBurger button {
-    position: fixed;
-    left: 40px;
-    top: 40px;
-    z-index: 10;
-    cursor: pointer;
-  }
-}
 
 .parent{
   display: flex;
