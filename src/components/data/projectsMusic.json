@@ -188,6 +188,26 @@
     }]
   },
   {
+    "id": "2019-wild",
+    "title": "WILD",
+    "year": "2019",
+    "type": "narrative content",
+    "img": {
+      "src": "2019_wild_still.jpg",
+      "alt": "filmstill from WILD showing two main actors in a wood"
+    },
+    "source": {
+      "vimeo": "https://player.vimeo.com/video/413663181?h=dbdec5c619"
+    },
+    "description": "A short film about a couple living in different times; forced to flee from their community to rediscover their inner nature and true self back in the wild.",
+    "production": {
+      "director": "Jannes Callens",
+      "producer": "Djurre Van Dijck",
+      "writer": "Jannes Callens",
+      "cinematography": "Sven Aerts"
+    }
+  },
+  {
     "id": "frowst",
     "title": "Frøwst",
     "year": "2017-2019",
